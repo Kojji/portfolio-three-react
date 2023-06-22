@@ -1,0 +1,12 @@
+.full-screen-banner {
+  overflow:hidden;
+  z-index:2;
+}
+
+#animation-section{
+  background: black;
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
+  max-height: 1028px;
+}
