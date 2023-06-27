@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import routes from "./routes";
-// import Footer from "./components/Footer";
 // import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import SideBar from "./components/SideBar";
 import FullScreenBanner from "./components/FullScreenBanner";
 
@@ -30,6 +30,7 @@ function App() {
       {navBarState && <SideBar />}
       <FullScreenBanner />
       <div>
+        {/* Menu component */}
         <Routes>
           {routes.map(
             ({ path, element }, key) =>
@@ -37,7 +38,9 @@ function App() {
           )}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        {/* recommendations section */}
       </div>
+      <Footer />
     </div>
     // <div className="relative bg-white dark:bg-zinc-600 min-h-screen">
     //   <div className="flex flex-col min-h-screen justify-between">

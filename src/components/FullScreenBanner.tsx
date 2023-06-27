@@ -1,3 +1,4 @@
+// using
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -106,10 +107,7 @@ function FullScreenBanner() {
               </div>
             </div>
           )}
-          <div>
-            {t("HomeBanner.CallToAction")}
-            {windowWidthState}
-          </div>
+          <div>{t("HomeBanner.CallToAction")}</div>
         </div>
       </div>
       {/* <css-doodle>{doodleRule}</css-doodle> */}

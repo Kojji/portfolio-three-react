@@ -1,4 +1,7 @@
 {
+  "FooterLinks": [
+    "https://youtube.com"
+  ],
   "HorizontalMenu": [
     {
       "id": "menuAbout",

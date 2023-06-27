@@ -1,4 +1,7 @@
 {
+  "FooterLinks": [
+    "https://google.com"
+  ],
   "HorizontalMenu": [
     {
       "id": "menuAbout",
