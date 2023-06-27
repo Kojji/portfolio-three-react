@@ -3,7 +3,7 @@ import { NavBarCategories } from "../contents";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useAppDispatch } from "../store/hooks";
-import { toggleNavBar } from "../store/NavBar/navBarStatus";
+import { toggleNavBar } from "../store/App/navBarStatus";
 // import "./SideBar.css";
 
 function SideBar() {
@@ -14,7 +14,7 @@ function SideBar() {
   }
 
   return (
-    <div className="absolute w-full bg-gray-200 dark:bg-gray-700 px-4 py-2 flex flex-col z-10 h-full">
+    <div className="absolute w-full bg-gray-200 dark:bg-gray-700 px-4 py-2 flex flex-col z-40 h-full">
       <div className="flex items-center w-full border-b-2 dark:border-pink-500 border-emerald-700 p-4">
         <button
           className="text-emerald-700 hover:text-emerald-900 dark:text-pink-500 dark:hover:text-pink-700 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 dark:focus:outline-pink-500  mr-2 block"

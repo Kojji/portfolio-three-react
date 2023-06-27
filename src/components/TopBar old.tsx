@@ -9,7 +9,7 @@ import {
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import { useAppDispatch } from "../store/hooks";
-import { toggleNavBar } from "../store/NavBar/navBarStatus";
+import { toggleNavBar } from "../store/App/navBarStatus";
 import { Link } from "react-router-dom";
 
 function TopBar() {
