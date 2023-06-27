@@ -13,6 +13,5 @@ i18n.use(initReactI18next).init({
     pt: {
       translation: ptJSON
     },
-  },
-  debug: true
+  }
 });
