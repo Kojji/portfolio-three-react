@@ -1,4 +1,3 @@
-// using
 import logo from "../assets/logo360.png";
 import { NavBarCategories } from "../contents";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

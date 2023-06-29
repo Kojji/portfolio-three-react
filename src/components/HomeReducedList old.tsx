@@ -1,4 +1,4 @@
-import MachineCard from "./MachineCard";
+import MachineCard from "./MachineCard old";
 import { FeatureMachineItem } from "../store/Home/home";
 import { Link } from "react-router-dom";
 

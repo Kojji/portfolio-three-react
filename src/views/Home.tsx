@@ -2,7 +2,7 @@ import { useAppSelector } from "../store/hooks";
 import { getFeaturedList } from "../store/Home/featuredList";
 import { getDiscountList } from "../store/Home/discountList";
 import { getRecentList } from "../store/Home/recentList";
-import HomeReducedList from "../components/HomeReducedList";
+import HomeReducedList from "../components/HomeReducedList old";
 
 import { useTranslation } from "react-i18next";
 

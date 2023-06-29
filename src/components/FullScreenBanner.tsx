@@ -1,4 +1,3 @@
-// using
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
