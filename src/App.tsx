@@ -38,13 +38,15 @@ function App() {
           {windowWidthState <= 768 && <CallToActionsSmScreen />}
           {windowWidthState > 768 && <MenuMdScreen />}
         </div>
-        <Routes>
-          {routes.map(
-            ({ path, element }, key) =>
-              element && <Route key={key} path={path} element={element} />
-          )}
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
+        <div id="route-section">
+          <Routes>
+            {routes.map(
+              ({ path, element }, key) =>
+                element && <Route key={key} path={path} element={element} />
+            )}
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </div>
         <div>
           <Recommendations />
         </div>

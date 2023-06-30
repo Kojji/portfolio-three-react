@@ -13,7 +13,10 @@ function CallToActionsSmComponent() {
   const { t } = useTranslation();
   return (
     <div>
-      <div className="w-full h-min p-5 flex flex-col items-center">
+      <div
+        id="call-to-actions"
+        className="w-full h-min p-5 flex flex-col items-center"
+      >
         <div className="inline-flex my-2">
           <a
             href={`https://wa.me/${t("HomeBanner.PhoneNumber")}`}

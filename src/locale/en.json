@@ -4,9 +4,15 @@
   ],
   "HorizontalMenu": [
     {
+      "id": "callToActions",
+      "title": "actions",
+      "route": "#call-to-actions",
+      "value": "Contact me"
+    },
+    {
       "id": "menuAbout",
       "title": "about",
-      "route": "/",
+      "route": "/#route-section",
       "value": "About Me"
     },
     {
@@ -32,6 +38,12 @@
       "title": "animation",
       "route": "/animation",
       "value": "Animations"
+    },
+    {
+      "id": "recommendations",
+      "title": "recommendations",
+      "route": "#recommendations",
+      "value": "Recommendations"
     }
   ],
   "HomeBanner": {
