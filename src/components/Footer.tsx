@@ -16,52 +16,58 @@ function Footer() {
     <div className="w-full bg-purple-600 flex flex-col">
       <div className="mx-auto mt-4">
         <div className="inline-flex mb-2">
-          <a href={t("FooterLinks.0")} target="_blank">
+          <a
+            href={`https://wa.me/${t("HomeBanner.PhoneNumber")}`}
+            target="_blank"
+          >
             <button
               className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
             >
-              <FontAwesomeIcon icon={faWhatsapp} />
+              <FontAwesomeIcon icon={faWhatsapp} size="lg" />
             </button>
           </a>
-          <a href="" target="_blank">
+          <a href="mailto:fernandokojidev@gmail.com" target="_blank">
             <button
               className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
             >
-              <FontAwesomeIcon icon={faEnvelope} />
+              <FontAwesomeIcon icon={faEnvelope} size="lg" />
             </button>
           </a>
-          <a href="" target="_blank">
+          <a href="https://github.com/Kojji" target="_blank">
             <button
               className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
             >
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} size="lg" />
             </button>
           </a>
-          <a href="" target="_blank">
+          <a href="https://www.instagram.com/nandokoji/" target="_blank">
             <button
               className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
             >
-              <FontAwesomeIcon icon={faInstagram} />
+              <FontAwesomeIcon icon={faInstagram} size="lg" />
             </button>
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/fernandokojiyama/"
+            target="_blank"
+          >
             <button
               className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
             >
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </button>
           </a>
-          <a href="" target="_blank">
+          <a href="https://codepen.io/kojji" target="_blank">
             <button
               className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               type="button"
             >
-              <FontAwesomeIcon icon={faCodepen} />
+              <FontAwesomeIcon icon={faCodepen} size="lg" />
             </button>
           </a>
         </div>
