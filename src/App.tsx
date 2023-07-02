@@ -7,6 +7,7 @@ import SideBar from "./components/SideBar";
 import FullScreenBanner from "./components/FullScreenBanner";
 import MenuMdScreen from "./components/MenuMdComponent";
 import CallToActionsSmScreen from "./components/CallToActionsSmComponent";
+import NavMenuSmScreen from "./components/NavMenuSmScreen";
 
 import { useAppSelector, useAppDispatch } from "./store/hooks";
 import { updateWindowWidth } from "./store/App/windowWidth";
@@ -50,6 +51,12 @@ function App() {
         <div>
           <Recommendations />
         </div>
+        {windowWidthState <= 768 && (
+          <div>
+            <NavMenuSmScreen />
+            {/* button to return top */}
+          </div>
+        )}
       </div>
       <Footer />
     </div>

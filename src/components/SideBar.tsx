@@ -5,7 +5,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useAppDispatch } from "../store/hooks";
 import { toggleNavBar } from "../store/App/navBarStatus";
 import "./SideBar.css";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 function SideBar() {
@@ -26,6 +25,7 @@ function SideBar() {
             className="text-gray-700 dark:text-pink-200 font-bold text-lg"
             // className={ selectedItem == item ? 'bg-amber-700' : null }
             // onClick={changeItem(item)}
+            // include a close icon top left
           >
             <a>{t(`HorizontalMenu.${i}.value`)}</a>
           </button>
