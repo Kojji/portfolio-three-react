@@ -55,17 +55,17 @@ function CallToActionsSmComponent() {
           </a>
         </div>
         <div className="inline-flex gap-4 mt-2">
-          {/* <a href={t('HomeBanner.CallToActionResume') === 'Curriculo' ? Curriculo : Resume} target="_blank"> */}
-          <button
-            type="button"
-            className="flex items-center drop-shadow-xl xl:w-36 w-32 xl:h-12 h-10  rounded-md bg-amber-600 font-semibold text-lg text-zinc-100 hover:bg-amber-700"
-          >
-            <FontAwesomeIcon icon={faDownload} className="px-3" />
-            <p className="xl:text-base text-sm">
-              {t("HomeBanner.CallToActionResume")}
-            </p>
-          </button>
-          {/* </a> */}
+          <a href={t("HomeBanner.ViewResume")} target="_blank">
+            <button
+              type="button"
+              className="flex items-center drop-shadow-xl xl:w-36 w-32 xl:h-12 h-10  rounded-md bg-amber-600 font-semibold text-lg text-zinc-100 hover:bg-amber-700"
+            >
+              <FontAwesomeIcon icon={faDownload} className="px-3" />
+              <p className="xl:text-base text-sm">
+                {t("HomeBanner.CallToActionResume")}
+              </p>
+            </button>
+          </a>
           <a href="mailto:fernandokojidev@gmail.com" target="_blank">
             <button
               type="button"
