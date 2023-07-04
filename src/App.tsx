@@ -32,7 +32,7 @@ function App() {
   });
 
   return (
-    <div id="app">
+    <div id="app" className="bg-black">
       {navBarState && <SideBar />}
       <FullScreenBanner />
       {windowWidthState <= 768 && <ReturnToTopButton />}

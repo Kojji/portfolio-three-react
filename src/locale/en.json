@@ -207,16 +207,20 @@
     },
     "Personal": {
       "PageTitle": "About Me",
-      "ParagraphFirst": "Hi, I'm Fernando. Graduated in Computer Engineering, I'm a web developer. Working mostly as a back end developer. I've already worked as a full stack web developer and, in some other projects, either in front end or back end development, which can be seen on the <b>\"Experience\"</b> tab. My main development stack is composed of Vue.js, Node.js, Typescript and AWS Services, but I've acquired knowledge in other concepts and technologies. To read a more detailed description of what I know, you can go straight to the <b>\"Skills\"</b> tab.",
-      "ParagraphSecond": "In terms of web development, my biggest interests are <b>API development and CSS/JS animations</b>. Sadly, I still don't have the skillset to completely make the animations I envision. But one day I'll get there. Spite the fact that I've acquired some API development experience, I know there is a lot of room for improvement, mainly at this profession, which requires constant growth. Although, I do believe I have the more than enough potencial and persistance to learn whatever is needed.",
-      "ParagraphThird": "A bunch of information about my capabilities and previous expeciences can be found in this page. Anyhow, there are <b>links in the footer</b>, which you can use to either get to know me better, or to get in touch with me. Hope you enjoy this personal page. 😁"
+      "Paragraphs": [
+        "Hi, I'm Fernando. Graduated in Computer Engineering, I'm a web developer. Working mostly as a back end developer. I've already worked as a full stack web developer and, in some other projects, either in front end or back end development, which can be seen on the <b>\"Experience\"</b> tab. My main development stack is composed of Vue.js, Node.js, Typescript and AWS Services, but I've acquired knowledge in other concepts and technologies. To read a more detailed description of what I know, you can go straight to the <b>\"Skills\"</b> tab.",
+        "In terms of web development, my biggest interests are <b>API development and CSS/JS animations</b>. Sadly, I still don't have the skillset to completely make the animations I envision. But one day I'll get there. Spite the fact that I've acquired some API development experience, I know there is a lot of room for improvement, mainly at this profession, which requires constant growth. Although, I do believe I have the more than enough potencial and persistance to learn whatever is needed.",
+        "A bunch of information about my capabilities and previous expeciences can be found in this page. Anyhow, there are <b>links in the footer</b>, which you can use to either get to know me better, or to get in touch with me. Hope you enjoy this personal page. 😁"
+      ]
     },
     "Skills": {
       "PageTitle": "Skills",
-      "TextOne": "The card on the left is there to provide a more straight display of my main skills, the reading of the beneath parts and the <b>\"Experience\"</b> tab are complementary to each other, giving a little more understanding of my capabilities and current knowledge.",
-      "TextTwo": "In terms of API development, I've had professional experience using PHP with Cake PHP, but ever since that, I've been using <b>Node.js with Express.js or AdonisJs, and typescript</b>. Unfortunately, I'm not very familiar to automated testing on a professional environment, but I've started studying about unit testing and Ent-to-End testing. Besides that, I've acquired some other skills, for example, <b>usage of sockets; conteiners; cloud services like firebase, GCP and AWS; and creation of linux based web servers</b> from previous experiences.",
-      "TextThree": "About front end development, I'm more knowledgeable about <b>Vue.js with some component frameworks such as Quasar, Vuetify, Bootstrap and Tailwind</b>. Due to previous expereiences, I've also learned <b>vanilla HTML, Javascript and CSS</b>.",
-      "TextFour": "At the moment, in my spare time, <b>I've been aiming to acquire more knowledge on CSS and JS animations, creation and manipulation of SVGs, automated testing and AWS cloud architecturing</b>.",
+      "Paragraphs": [
+        "The card on the left is there to provide a more straight display of my main skills, the reading of the beneath parts and the <b>\"Experience\"</b> tab are complementary to each other, giving a little more understanding of my capabilities and current knowledge.",
+        "In terms of API development, I've had professional experience using PHP with Cake PHP, but ever since that, I've been using <b>Node.js with Express.js or AdonisJs, and typescript</b>. Unfortunately, I'm not very familiar to automated testing on a professional environment, but I've started studying about unit testing and Ent-to-End testing. Besides that, I've acquired some other skills, for example, <b>usage of sockets; conteiners; cloud services like firebase, GCP and AWS; and creation of linux based web servers</b> from previous experiences.",
+        "About front end development, I'm more knowledgeable about <b>Vue.js with some component frameworks such as Quasar, Vuetify, Bootstrap and Tailwind</b>. Due to previous expereiences, I've also learned <b>vanilla HTML, Javascript and CSS</b>.",
+        "At the moment, in my spare time, <b>I've been aiming to acquire more knowledge on CSS and JS animations, creation and manipulation of SVGs, automated testing and AWS cloud architecturing</b>."
+      ],
       "CardOne": "Main"
     }
   }

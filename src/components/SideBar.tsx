@@ -47,10 +47,10 @@ function SideBar() {
   };
 
   return (
-    <div className="w-full bg-gray-200 dark:bg-gray-700 px-4 py-2 flex flex-col z-40 side-bar">
-      <div className="flex items-center w-full border-b-2 dark:border-pink-500 border-emerald-700 p-4">
+    <div className="w-full bg-gray-700 px-4 py-2 flex flex-col z-40 side-bar">
+      <div className="flex items-center w-full border-b-2 border-emerald-700 p-4">
         <button
-          className="text-emerald-700 hover:text-emerald-900 dark:text-pink-500 dark:hover:text-pink-700 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 dark:focus:outline-pink-500  mr-2 block"
+          className="text-emerald-700 hover:text-emerald-900 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 mr-2 block"
           type="button"
           onClick={closeSideBar}
         >
@@ -62,7 +62,7 @@ function SideBar() {
           src={logo}
         />
         <button
-          className="text-emerald-700 hover:text-emerald-900 dark:text-pink-500 dark:hover:text-pink-700 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 dark:focus:outline-pink-500  mr-2 block"
+          className="text-emerald-700 hover:text-emerald-900 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 mr-2 block"
           type="button"
           onClick={closeSideBar}
         >
