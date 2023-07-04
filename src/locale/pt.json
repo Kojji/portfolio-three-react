@@ -1,12 +1,6 @@
 {
   "HorizontalMenu": [
     {
-      "id": "callToActions",
-      "title": "actions",
-      "route": "#call-to-actions",
-      "value": "Contate me"
-    },
-    {
       "id": "menuAbout",
       "title": "about",
       "route": "/#route-section",

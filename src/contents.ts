@@ -8,11 +8,6 @@ interface FooterElement {
   links: URLLink[]
 }
 
-interface NavBarCategory {
-  title: string,
-  queryParams: string
-}
-
 interface URLLink {
   text: string,
   url: string
@@ -49,23 +44,6 @@ export const FooterLinks : FooterElement[] = [
       {text: "Feedback", url: "/review"}
     ]
   }
-]
-// ---------------------------------
-
-// NavBar | SideBar
-export const NavBarCategories : NavBarCategory[] = [
-  {
-    title: "All",
-    queryParams: ""
-  },
-  {
-    title: "Gacha Machines",
-    queryParams: ""
-  },
-  {
-    title: "Mysterious Boxes",
-    queryParams: ""
-  },
 ]
 // ---------------------------------
 

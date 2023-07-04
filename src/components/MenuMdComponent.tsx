@@ -6,7 +6,7 @@ function MenuMdComponent() {
 
   const getMenuItems = () => {
     let content = [];
-    for (let i = 1; i < 6; i++) {
+    for (let i = 0; i < 5; i++) {
       content.push(
         <Link
           to={t(`HorizontalMenu.${i}.route`)}
