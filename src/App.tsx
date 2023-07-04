@@ -8,6 +8,7 @@ import FullScreenBanner from "./components/FullScreenBanner";
 import MenuMdScreen from "./components/MenuMdComponent";
 import CallToActionsSmScreen from "./components/CallToActionsSmComponent";
 import NavMenuSmScreen from "./components/NavMenuSmScreen";
+import ReturnToTopButton from "./components/ReturnToTopButton";
 
 import { useAppSelector, useAppDispatch } from "./store/hooks";
 import { updateWindowWidth } from "./store/App/windowWidth";
@@ -34,6 +35,7 @@ function App() {
     <div id="app">
       {navBarState && <SideBar />}
       <FullScreenBanner />
+      {windowWidthState <= 768 && <ReturnToTopButton />}
       <div>
         <div>
           {windowWidthState <= 768 && <CallToActionsSmScreen />}
@@ -54,7 +56,6 @@ function App() {
         {windowWidthState <= 768 && (
           <div>
             <NavMenuSmScreen />
-            {/* button to return top */}
           </div>
         )}
       </div>
