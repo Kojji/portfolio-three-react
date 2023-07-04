@@ -55,7 +55,6 @@
       "PageTitle": "Formação",
       "Sections": [
         {
-          "id": 1,
           "title": "education",
           "value": "Formação Acadêmica",
           "items": [
@@ -66,14 +65,12 @@
               "valueDescription": "Atualmente fazendo o curso vocacional 'Diploma in Information Technology' no ECA College Brisbane, com conclusão esperada em 2024."
             },
             {
-              "id": 1,
               "title": "ufgd",
               "valueMenu": "2021 - [Diploma] UFGD",
               "valueLabel": "2021 - [Engenheiro de Computação] UFGD",
               "valueDescription": "Conclusão do curso de Engenharia de Computação na Universidade Federal da Grande Dourados (UFGD). Como critério de formação, realizei um estágio na empresa Dourasoft, e desenvolvi, com outro acadêmico, um sistema de coleta de dados do solo, composto de multiplos equipamentos de comunicação sem fio, denominado Agriv, como TCC."
             },
             {
-              "id": 2,
               "title": "ifsp",
               "valueMenu": "2013 - [Diploma] IFSP-SP",
               "valueLabel": "2013 - [Técnico em Eletrônica] IFSP-SP",
@@ -82,32 +79,33 @@
           ]
         },
         {
-          "id": 2,
           "title": "certification",
           "value": "Certificações",
           "items": [
             {
-              "id": 1,
               "title": "ccp",
               "valueMenu": "2022 - [CCP] AWS",
               "valueLabel": "2022 - [Certified Cloud Practitioner (CCP)] AWS",
               "valueDescription": "Certificado referente à aprovação no exame <i>Certified Cloud Practitioner</i> (CCP) da AWS."
             },
             {
-              "id": 2,
               "title": "cae",
               "valueMenu": "2018 - [CAE] Cambrigde",
               "valueLabel": "2018 - [Certificate in Advanced English (CAE)] Cambridge English",
               "valueDescription": "Certificado de pontuação 193 no exame <i>Certificate in Advanced English</i> (CAE) de Cambridge, equivalente ao nível C1 do <i>CEFR</i>."
             },
             {
-              "id": 3,
               "title": "fce",
               "valueMenu": "2017 - [FCE] Cambrigde",
               "valueLabel": "2017 - [First Certificate in English (FCE)] Cambrigde English",
               "valueDescription": "Certificado de pontuação 183 no exame <i>First Certificate in English</i> (FCE) de Cambridge, equivalente ao nível C1 do <i>CEFR</i>."
             }
           ]
+        },
+        {
+          "title": "online courses",
+          "value": "Cursos Online",
+          "items": []
         }
       ]
     },

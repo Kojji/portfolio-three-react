@@ -1,4 +1,4 @@
-import FAQAccordion from "../components/FAQAccordion";
+import FAQAccordion from "../components/ItemsAccordion";
 import ContactForm from "../components/ContactForm";
 import { FAQList } from "../contents";
 

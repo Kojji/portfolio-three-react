@@ -10,7 +10,7 @@ import {
 
 interface AccordionItem {
   title: string;
-  children: string[];
+  children: string;
   index: number;
 }
 
@@ -37,7 +37,7 @@ function FAQAccordion({ title, children, index }: AccordionItem) {
           }`}
         >
           <span className={accordionActiveState === index ? "font-bold" : ""}>
-            {title} - {index}
+            {title}
           </span>
           <button
             className="relative inline-block text-emerald-700 hover:text-emerald-900 dark:text-white dark:hover:text-pink-400 items-center justify-center align-center outline-none focus:outline-none mx-2"
@@ -55,11 +55,12 @@ function FAQAccordion({ title, children, index }: AccordionItem) {
           </button>
         </div>
         {accordionActiveState === index && (
-          <div className="p-1">
-            {children.map((value, key) => (
-              <p className="text-gray-700 text-lg">{value}</p>
-            ))}
-          </div>
+          <div
+            className="p-1"
+            dangerouslySetInnerHTML={{
+              __html: children,
+            }}
+          ></div>
         )}
       </div>
     </div>

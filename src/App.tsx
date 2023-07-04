@@ -8,7 +8,7 @@ import FullScreenBanner from "./components/FullScreenBanner";
 import MenuMdScreen from "./components/MenuMdComponent";
 import CallToActionsSmScreen from "./components/CallToActionsSmComponent";
 import NavMenuSmScreen from "./components/NavMenuSmScreen";
-import ReturnToTopButton from "./components/ReturnToTopButton";
+import ReturnToTopButton from "./components/FixedSmScreenButtons";
 
 import { useAppSelector, useAppDispatch } from "./store/hooks";
 import { updateWindowWidth } from "./store/App/windowWidth";
