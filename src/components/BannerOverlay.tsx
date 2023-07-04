@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faWhatsapp,
   faGithub,
@@ -9,16 +9,14 @@ import {
   faLinkedin,
   faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
-import { useAppDispatch, useAppSelector } from "../store/hooks";
+import { useAppSelector } from "../store/hooks";
 
-import { toggleNavBar } from "../store/App/navBarStatus";
 import logo from "../assets/logo-white.png";
 import "./BannerOverlay.css";
 
 import { getWindowWidthState } from "../store/App/windowWidth";
 
 function BannerOverlay() {
-  const dispatch = useAppDispatch();
   const {
     t,
     i18n: { changeLanguage, language },
@@ -30,10 +28,6 @@ function BannerOverlay() {
       setCurrentLanguage(newLanguage);
       changeLanguage(newLanguage);
     }
-  }
-
-  function openSideBar() {
-    dispatch(toggleNavBar());
   }
 
   const windowWidthState = useAppSelector(getWindowWidthState);
@@ -67,14 +61,7 @@ function BannerOverlay() {
           </div>
         )}
         {windowWidthState <= 768 && (
-          <div id="SMTopBar" className="flex justify-between">
-            <button
-              className="text-emerald-700 hover:text-emerald-900 dark:text-pink-500 dark:hover:text-pink-700 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 dark:focus:outline-pink-500 mr-2 block"
-              type="button"
-              onClick={openSideBar}
-            >
-              <FontAwesomeIcon icon={faBars} className="fa-2x" />
-            </button>
+          <div id="SMTopBar" className="flex justify-end">
             <div className="justify-self-start self-center md:w-24 md:h-24 w-16 h-16">
               <img src={logo} />
             </div>

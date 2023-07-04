@@ -3,7 +3,7 @@
     {
       "id": "menuAbout",
       "title": "about",
-      "route": "/#route-section",
+      "route": "/",
       "value": "Sobre Mim"
     },
     {
