@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import FAQAccordion from "./ItemsAccordion";
+import Accordion from "./ItemsAccordion";
 
 function EducationSectionSmScreen() {
   const { t } = useTranslation();
@@ -11,16 +11,16 @@ function EducationSectionSmScreen() {
     let content = [];
     for (let i = 0; i < sectionItemsInArray[sectionIndex]; i++) {
       content.push(
-        <div key={String(i) + String(sectionIndex)}>
-          <FAQAccordion
+        <div key={String(sectionIndex) + String(i)}>
+          <Accordion
             title={t(
               `InfoCards.Education.Sections.${sectionIndex}.items.${i}.valueLabel`
             )}
             children={t(
               `InfoCards.Education.Sections.${sectionIndex}.items.${i}.valueDescription`
             )}
-            index={Number(String(i) + String(sectionIndex))}
-          ></FAQAccordion>
+            index={Number(String(sectionIndex) + String(i))}
+          ></Accordion>
         </div>
       );
     }
@@ -46,9 +46,6 @@ function EducationSectionSmScreen() {
     <div className="w-full">
       <div className="mb-10">
         <div>{getEducationSections()}</div>
-        {/* {FAQList.map(({ title, answer }, key) => (
-          
-        ))} */}
       </div>
     </div>
   );
