@@ -181,12 +181,6 @@
               "valueMenu": "2020 - PassRemind",
               "valueLabel": "2020 - PassRemind",
               "valueDescription": "<a href=\"https://github.com/Kojji/pass-remind-web-app\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Projeto presente no GitHub]</span></a> O PassRemind é um aplicativo de gerenciamento de senhas para uso pessoal, desenvolvido em <b>Vue.js com Vuetify e firebase</b>, além de um <b>plugin de navegador</b>. Apesar de não ser tão complexo, esse projeto foi importante por me introduzir à desenvolvimento de plugins e a utilização de serviços cloud do firebase, no caso, <b>Firestore, Firebase Functions e Firebase Hosting</b>."
-            },
-            {
-              "title": "comandas",
-              "valueMenu": "2020 - ComandasApp",
-              "valueLabel": "2020 - ComandasApp",
-              "valueDescription": "Estive envolvido no <b>desenvolvimento de back end e front end</b> de algumas funcionalidades deste sistema de gerenciamento de comandas para restaurantes. Ele foi feito em <b>Vue.js e Node.js com ExpressJs</b>. Infelizmente, apesar de ter sua primeira versão finalizada, devido à pesquisas de mercado, o projeto foi interrompido antes de ser comercializado."
             }
           ]
         },
