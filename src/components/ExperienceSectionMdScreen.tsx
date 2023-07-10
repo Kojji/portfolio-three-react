@@ -40,7 +40,6 @@ function ExperienceSectionMdScreen() {
                 `InfoCards.Experience.Sections.${index}.items.${i}.valueDescription`
               ),
             }}
-            v-html="$t()"
           ></p>
         </div>
       );
@@ -86,13 +85,6 @@ function ExperienceSectionMdScreen() {
             {sectionItemsInArray.map((_, index) => {
               return getContentTexts(index);
             })}
-            {/* <div v-for="(item, index) in experienceItems" :key="index">
-              <div class="px-3 bg-gray-100 font-semibold text-lg uppercase">{{$t(`InfoCards.Experience.Sections[${index}].value`)}}</div>
-              <div v-for="(subItem, subIndex) in item.items" :key="subIndex" class="my-10">
-                <p :id="subItem" class="font-bold text-xl">{{$t(`InfoCards.Experience.Sections[${index}].items[${subIndex}].valueLabel`)}}</p>
-                <p class="text-xl" v-html="$t(`InfoCards.Experience.Sections[${index}].items[${subIndex}].valueDescription`)"></p>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
