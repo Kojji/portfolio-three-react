@@ -19,7 +19,7 @@ function MenuMdComponent() {
             // className={ selectedItem == item ? 'bg-amber-700' : null }
             // onClick={changeItem(item)}
           >
-            <a>{t(`HorizontalMenu.${i}.value`)}</a>
+            {t(`HorizontalMenu.${i}.value`)}
           </button>
         </Link>
       );
