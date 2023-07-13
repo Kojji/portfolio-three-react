@@ -1,17 +1,26 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-import enJSON from "./locale/en.json";
-import ptJSON from "./locale/pt.json";
+async function getLngFile(lang : string) {
+  let response : Response = await fetch(`/locale/${lang}.json`, {
+    headers : { 
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    }
+  });
+  return await response.json()
+}
 
-i18n.use(initReactI18next).init({
-  lng: "en",
-  resources: {
-    en: {
-      translation: enJSON
-    },
-    pt: {
-      translation: ptJSON
-    },
-  }
-});
+export default async function loadI18n() {
+  i18n.use(initReactI18next).init({
+    lng: "en",
+    resources: {
+      en: {
+        translation: await getLngFile('en')
+      },
+      pt: {
+        translation: await getLngFile('pt')
+      }
+    }
+  })
+};

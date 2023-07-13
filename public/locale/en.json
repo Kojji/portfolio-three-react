@@ -228,5 +228,12 @@
       ],
       "CardOne": "Main"
     }
-  }
+  },
+  "Recommendations": [
+    {
+      "author": "Name",
+      "link": "URL",
+      "Content": "Content"
+    }
+  ]
 }
