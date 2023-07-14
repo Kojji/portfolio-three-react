@@ -4,8 +4,11 @@ import Accordion from "./ItemsAccordion";
 function ExperienceSectionSmScreen() {
   const { t } = useTranslation();
 
-  // number of items within InfoCards.Experience.Sections.${index}.items
-  const sectionItemsInArray: number[] = [5, 6, 2];
+  const sectionItemsInArray: number[] = [
+    Number(t(`InfoCards.Experience.Sections.${0}.length`)),
+    Number(t(`InfoCards.Experience.Sections.${1}.length`)),
+    Number(t(`InfoCards.Experience.Sections.${2}.length`)),
+  ];
 
   function getExperienceSectionItems(sectionIndex: number) {
     let content = [];

@@ -49,7 +49,52 @@
       "PageTitle": "My Animations",
       "NavMessage": "Press or keep the mouse over the image",
       "TextOne": "This section is a galery of my CSS/JS animations, which I've been developing mostly as a hobby. You can either press the animation, or put the mouse over it to play its preview. But, by clicking on its name you can see it fully on my codepen. 😉",
-      "TextTwo": ""
+      "TextTwo": "",
+      "SectionLength": "7",
+      "Sections": [
+        {
+          "name": "Cooking Kirby",
+          "component": "/src/assets/videos/cookingKirby.mp4",
+          "reference": "kirbyVid",
+          "link": "https://codepen.io/kojji/full/LYdqqjr"
+        },
+        {
+          "name": "Octopiano",
+          "component": "/src/assets/videos/octopiano.mp4",
+          "reference": "octopianoVid",
+          "link": "https://codepen.io/kojji/full/abVxxOQ"
+        },
+        {
+          "name": "Surfing Pikachu",
+          "component": "/src/assets/videos/surfing.mp4",
+          "reference": "surfingPikachuVid",
+          "link": "https://codepen.io/kojji/full/poaYvVL"
+        },
+        {
+          "name": "GSAP outlines rotation",
+          "component": "/src/assets/videos/rotating.mp4",
+          "reference": "rotatingVid",
+          "link": "https://codepen.io/kojji/full/LYdgmdg"
+        },
+        {
+          "name": "GSAP Rotating Squares",
+          "component": "/src/assets/videos/squares.mp4",
+          "reference": "squaresVid",
+          "link": "https://codepen.io/kojji/full/poLxrMW"
+        },
+        {
+          "name": "Beach Waves",
+          "component": "/src/assets/videos/shortVer.mp4",
+          "reference": "beachVid",
+          "link": "https://codepen.io/kojji/full/QWOJJGQ"
+        },
+        {
+          "name": "City Lights",
+          "component": "/src/assets/videos/city_lights.mp4",
+          "reference": "cityLightsVid",
+          "link": "https://codepen.io/kojji/full/zYPyPJV"
+        }
+      ]
     },
     "Education": {
       "PageTitle": "Education",
@@ -57,6 +102,7 @@
         {
           "title": "education",
           "value": "Education Background",
+          "length" : "3",
           "items": [
             {
               "title": "ECAC",
@@ -81,6 +127,7 @@
         {
           "title": "certification",
           "value": "Certifications",
+          "length" : "3",
           "items": [
             {
               "title": "ccp",
@@ -105,6 +152,7 @@
         {
           "title": "online courses",
           "value": "Online Courses",
+          "length" : "0",
           "items": []
         }
       ]
@@ -115,6 +163,7 @@
         {
           "title": "paid",
           "value": "Programming Services",
+          "length" : "5",
           "items": [
             {
               "title": "mutant",
@@ -151,6 +200,7 @@
         {
           "title": "other",
           "value": "Other Projects",
+          "length" : "5",
           "items": [
             {
               "title": "protfolio-two",
@@ -181,18 +231,13 @@
               "valueMenu": "2020 - PassRemind",
               "valueLabel": "2020 - PassRemind",
               "valueDescription": "<a href=\"https://github.com/Kojji/pass-remind-web-app\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Project available on GitHub]</span></a> PassRemind is a password manager web app for personal use, it was developed using <b>Vue.js with Vuetify and firebase</b>, plus, a <b>browser plugin was developed</b> as well. Although, it is not a complex system, this project had its importance for introducing me to the development of browser plugins and the use of <b>Firebase Functions and Firebase Hosting</b>."
-            },
-            {
-              "title": "comandas",
-              "valuMenu": "2020 - ComandasApp",
-              "valueLabl": "2020 - ComandasApp",
-              "valueDesciption": "I've been involved in the <b>front end and back end development</b> of some of the system's functionalities. Which was made to manage restaurant checks. It was developed in <b>Vue.js and Node.js with Express.js</b>. Unfortunately, although its first commercial version was fully developed, the project came to an end before being publicly available due to market research."
             }
           ]
         },
         {
           "title": "misc",
           "value": "Miscellanious",
+          "length" : "2",
           "items": [
             {
               "title": "coin",
@@ -229,11 +274,14 @@
       "CardOne": "Main"
     }
   },
-  "Recommendations": [
-    {
-      "author": "Name",
-      "link": "URL",
-      "Content": "Content"
-    }
-  ]
+  "Recommendations": {
+    "SectionLength": 1,
+    "Items": [
+      {
+        "author": "Name",
+        "link": "URL",
+        "Content": "Content"
+      }
+    ]
+  }
 }

@@ -3,14 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import "./Animations.css";
 
-import beachWavesVideo from "/src/assets/videos/shortVer.mp4";
-import cityLightsVideo from "/src/assets/videos/city_lights.mp4";
-import surfingPikachu from "/src/assets/videos/surfing.mp4";
-import octopiano from "/src/assets/videos/octopiano.mp4";
-import squares from "/src/assets/videos/squares.mp4";
-import rotating from "/src/assets/videos/rotating.mp4";
-import cookingKirby from "/src/assets/videos/cookingKirby.mp4";
-
 function Animations() {
   const { t } = useTranslation();
 
@@ -31,82 +23,50 @@ function Animations() {
     icon?.classList.add("invisible");
   }
 
-  const animations = [
-    {
-      name: "Cooking Kirby",
-      component: cookingKirby,
-      reference: "kirbyVid",
-      link: "https://codepen.io/kojji/full/LYdqqjr",
-    },
-    {
-      name: "Octopiano",
-      component: octopiano,
-      reference: "octopianoVid",
-      link: "https://codepen.io/kojji/full/abVxxOQ",
-    },
-    {
-      name: "Surfing Pikachu",
-      component: surfingPikachu,
-      reference: "surfingPikachuVid",
-      link: "https://codepen.io/kojji/full/poaYvVL",
-    },
-    {
-      name: "GSAP outlines rotation",
-      component: rotating,
-      reference: "rotatingVid",
-      link: "https://codepen.io/kojji/full/LYdgmdg",
-    },
-    {
-      name: "GSAP Rotating Squares",
-      component: squares,
-      reference: "squaresVid",
-      link: "https://codepen.io/kojji/full/poLxrMW",
-    },
-    {
-      name: "Beach Waves",
-      component: beachWavesVideo,
-      reference: "beachVid",
-      link: "https://codepen.io/kojji/full/QWOJJGQ",
-    },
-    {
-      name: "City Lights",
-      component: cityLightsVideo,
-      reference: "cityLightsVid",
-      link: "https://codepen.io/kojji/full/zYPyPJV",
-    },
-  ];
-
   function getAnimationCards() {
     let content = [];
-    for (let i = 0; i < animations.length; i++) {
+    for (let i = 0; i < Number(t(`InfoCards.Animation.SectionLength`)); i++) {
       content.push(
         <div
-          key={animations[i].name}
+          key={t(`InfoCards.Animation.Sections.${i}.name`)}
           className="rounded-md bg-purple-100 h-min p-2"
         >
-          <a href={animations[i].link} target="_blank">
+          <a href={t(`InfoCards.Animation.Sections.${i}.link`)} target="_blank">
             <span
               className="font-semibold text-lg hover:text-blue-600"
-              onMouseOver={() => iconAppear(`${animations[i].reference}Icon`)}
+              onMouseOver={() =>
+                iconAppear(
+                  `${t(`InfoCards.Animation.Sections.${i}.reference`)}Icon`
+                )
+              }
               onMouseLeave={() =>
-                iconDisappear(`${animations[i].reference}Icon`)
+                iconDisappear(
+                  `${t(`InfoCards.Animation.Sections.${i}.reference`)}Icon`
+                )
               }
             >
-              {animations[i].name}
+              {t(`InfoCards.Animation.Sections.${i}.name`)}
               <FontAwesomeIcon
-                id={`${animations[i].reference}Icon`}
+                id={`${t(`InfoCards.Animation.Sections.${i}.reference`)}Icon`}
                 className="invisible ml-2"
                 icon={faArrowUpRightFromSquare}
               />
             </span>
           </a>
           <video
-            id={animations[i].reference}
-            onMouseOver={() => playOnHover(animations[i].reference)}
-            onMouseLeave={() => pauseOnLeave(animations[i].reference)}
+            id={t(`InfoCards.Animation.Sections.${i}.reference`)}
+            onMouseOver={() =>
+              playOnHover(t(`InfoCards.Animation.Sections.${i}.reference`))
+            }
+            onMouseLeave={() =>
+              pauseOnLeave(t(`InfoCards.Animation.Sections.${i}.reference`))
+            }
             muted={true}
           >
-            <source src={animations[i].component} type="video/mp4" />
+            <source
+              src={t(`InfoCards.Animation.Sections.${i}.component`)}
+              type="video/mp4"
+            />
           </video>
         </div>
       );

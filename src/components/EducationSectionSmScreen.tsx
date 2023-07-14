@@ -5,7 +5,11 @@ function EducationSectionSmScreen() {
   const { t } = useTranslation();
 
   // number of items within InfoCards.Education.Sections.${index}.items
-  const sectionItemsInArray: number[] = [3, 3, 0];
+  const sectionItemsInArray: number[] = [
+    Number(t(`InfoCards.Education.Sections.${0}.length`)),
+    Number(t(`InfoCards.Education.Sections.${1}.length`)),
+    Number(t(`InfoCards.Education.Sections.${2}.length`)),
+  ];
 
   function getEducationSectionItems(sectionIndex: number) {
     let content = [];

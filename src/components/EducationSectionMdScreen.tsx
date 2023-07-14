@@ -3,7 +3,11 @@ import { useTranslation } from "react-i18next";
 function EducationSectionMdScreen() {
   const { t } = useTranslation();
 
-  const sectionItemsInArray: number[] = [3, 3, 0];
+  const sectionItemsInArray: number[] = [
+    Number(t(`InfoCards.Education.Sections.${0}.length`)),
+    Number(t(`InfoCards.Education.Sections.${1}.length`)),
+    Number(t(`InfoCards.Education.Sections.${2}.length`)),
+  ];
 
   function getTableItems(index: number) {
     let content = [];
