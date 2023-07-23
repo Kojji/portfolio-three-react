@@ -40,7 +40,8 @@
   "HomeBanner": {
     "CallToAction": "Contate me",
     "CallToActionResume": "Curriculo",
-    "Profession": "Desenvolvedor Web",
+    "Profession": "Desenvolvedor",
+    "ExtraProfession": "Aspirante a Analista de negócios",
     "PhoneNumber": "+5511934282440",
     "ViewResume": "https://docs.google.com/document/d/1sunVS8-psdI90JYLiLgU5omjdT3s0ulgRJ-YcKyGgTY/edit?usp=sharing"
   },
@@ -272,16 +273,16 @@
         "No momento, em meu tempo livre, <b>estou visando adquirir mais conhecimento de animações CSS e JS, criação e manipulação de imagens svg, testes automatizados e arquitetura Cloud no AWS</b>."
       ],
       "CardOne": "Principal"
-    },
-    "Recommendations": {
-      "SectionLength": 1,
-      "Items": [
-        {
-          "author": "Name",
-          "link": "URL",
-          "Content": "Content"
-        }
-      ]
     }
+  },
+  "Recommendations": {
+    "SectionLength": "1",
+    "Items": [
+      {
+        "author": "Name",
+        "link": "URL",
+        "content": "Content"
+      }
+    ]
   }
 }

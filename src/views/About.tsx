@@ -7,6 +7,7 @@ function About() {
     for (let i = 0; i < 3; i++) {
       content.push(
         <div
+          key={i}
           dangerouslySetInnerHTML={{
             __html: t(`InfoCards.Personal.Paragraphs.${i}`),
           }}

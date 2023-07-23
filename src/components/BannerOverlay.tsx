@@ -41,18 +41,24 @@ function BannerOverlay() {
               <img src={logo} />
             </div>
             <div className="justify-self-end self-center">
-              <div className="w-24 h-12 rounded-full bg-black">
+              <div className="w-24 h-12 rounded-full">
                 <button
                   type="button"
                   onClick={() => editLanguage("en")}
-                  className="rounded-full w-12 h-12 text-zinc-100 bg-amber-600 hover:bg-amber-700 font-bold"
+                  className={
+                    "rounded-full w-12 h-12 text-zinc-100 hover:bg-amber-700 font-bold " +
+                    (currentLanguage !== "en" ? "bg-gray-600" : "bg-amber-600")
+                  }
                 >
                   EN
                 </button>
                 <button
                   type="button"
                   onClick={() => editLanguage("pt")}
-                  className="rounded-full w-12 h-12 text-zinc-100 bg-amber-600 hover:bg-amber-700 font-bold"
+                  className={
+                    "rounded-full w-12 h-12 text-zinc-100 hover:bg-amber-700 font-bold " +
+                    (currentLanguage !== "pt" ? "bg-gray-600" : "bg-amber-600")
+                  }
                 >
                   PT
                 </button>
@@ -72,6 +78,11 @@ function BannerOverlay() {
             <div className="col-span-2">
               <div className="h-full w-full flex flex-col justify-center items-end">
                 <div className="w-fit h-min"> */}
+          <div>Fernando Koji Yamashiro</div>
+          <div>{t(`HomeBanner.Profession`)}</div>
+          <div>{t(`HomeBanner.ExtraProfession`)}</div>
+          <div>{t(`HomeBanner.CallToActionResume`)}</div>
+          <div>{t(`HomeBanner.CallToAction`)}</div>
           <div className="inline-flex mb-2">
             <a
               href={`https://wa.me/${t("HomeBanner.PhoneNumber")}`}
