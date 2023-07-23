@@ -102,7 +102,7 @@
       "Sections": [
         {
           "title": "education",
-          "value": "Education Background",
+          "value": "Education",
           "length" : "3",
           "items": [
             {
@@ -272,7 +272,9 @@
         "About front end development, I'm more knowledgeable about <b>Vue.js with some component frameworks such as Quasar, Vuetify, Bootstrap and Tailwind</b>. Due to previous expereiences, I've also learned <b>vanilla HTML, Javascript and CSS</b>.",
         "At the moment, in my spare time, <b>I've been aiming to acquire more knowledge on CSS and JS animations, creation and manipulation of SVGs, automated testing and AWS cloud architecturing</b>."
       ],
-      "CardOne": "Main"
+      "CardOne": "Main",
+      "CardTwo": "Others"
+
     }
   },
   "Recommendations": {

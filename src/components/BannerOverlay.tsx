@@ -34,35 +34,36 @@ function BannerOverlay() {
 
   return (
     <div id="animation-overlay-section" className="z-20">
-      <div className="mx-auto p-10 container bg-gradient-to-r from-cyan-500 to-blue-500 opacity-75 h-full flex flex-col">
+      <div className="mx-auto p-10 container h-full flex flex-col">
+        {/* <div className="mx-auto p-10 container bg-gradient-to-r from-cyan-500 to-blue-500 opacity-75 h-full flex flex-col"> */}
         {windowWidthState > 768 && (
           <div id="MDTopBar" className="flex justify-between">
             <div className="justify-self-start self-center md:w-24 md:h-24 w-16 h-16">
               <img src={logo} />
             </div>
-            <div className="justify-self-end self-center">
-              <div className="w-24 h-12 rounded-full">
-                <button
-                  type="button"
-                  onClick={() => editLanguage("en")}
-                  className={
-                    "rounded-full w-12 h-12 text-zinc-100 hover:bg-amber-700 font-bold " +
-                    (currentLanguage !== "en" ? "bg-gray-600" : "bg-amber-600")
-                  }
-                >
-                  EN
-                </button>
-                <button
-                  type="button"
-                  onClick={() => editLanguage("pt")}
-                  className={
-                    "rounded-full w-12 h-12 text-zinc-100 hover:bg-amber-700 font-bold " +
-                    (currentLanguage !== "pt" ? "bg-gray-600" : "bg-amber-600")
-                  }
-                >
-                  PT
-                </button>
-              </div>
+            <div className="justify-self-end self-center gap-2 flex">
+              {/* <div className="w-24 h-12 rounded-full g-2"> */}
+              <button
+                type="button"
+                onClick={() => editLanguage("en")}
+                className={
+                  "rounded-full w-12 h-12 text-zinc-100 hover:opacity-100 font-bold bg-steelPink-600 " +
+                  (currentLanguage !== "en" ? "opacity-50" : "opacity-100")
+                }
+              >
+                EN
+              </button>
+              <button
+                type="button"
+                onClick={() => editLanguage("pt")}
+                className={
+                  "rounded-full w-12 h-12 text-zinc-100 hover:opacity-100 font-bold bg-steelPink-600 " +
+                  (currentLanguage !== "pt" ? "opacity-50" : "opacity-100")
+                }
+              >
+                PT
+              </button>
+              {/* </div> */}
             </div>
           </div>
         )}
@@ -78,18 +79,20 @@ function BannerOverlay() {
             <div className="col-span-2">
               <div className="h-full w-full flex flex-col justify-center items-end">
                 <div className="w-fit h-min"> */}
-          <div>Fernando Koji Yamashiro</div>
-          <div>{t(`HomeBanner.Profession`)}</div>
-          <div>{t(`HomeBanner.ExtraProfession`)}</div>
-          <div>{t(`HomeBanner.CallToActionResume`)}</div>
-          <div>{t(`HomeBanner.CallToAction`)}</div>
-          <div className="inline-flex mb-2">
+          <div className="text-white">
+            <div>Fernando Koji Yamashiro</div>
+            <div>{t(`HomeBanner.Profession`)}</div>
+            <div>{t(`HomeBanner.ExtraProfession`)}</div>
+            <div>{t(`HomeBanner.CallToActionResume`)}</div>
+            <div>{t(`HomeBanner.CallToAction`)}</div>
+          </div>
+          <div className="inline-flex mb-2 gap-2">
             <a
               href={`https://wa.me/${t("HomeBanner.PhoneNumber")}`}
               target="_blank"
             >
               <button
-                className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-zinc-200 text-steelPink-600 hover:text-steelPink-800 hover:bg-white shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                 type="button"
               >
                 <FontAwesomeIcon icon={faWhatsapp} size="lg" />
@@ -97,7 +100,7 @@ function BannerOverlay() {
             </a>
             <a href="mailto:fernandokojidev@gmail.com" target="_blank">
               <button
-                className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-zinc-200 text-steelPink-600 hover:text-steelPink-800 hover:bg-white shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                 type="button"
               >
                 <FontAwesomeIcon icon={faEnvelope} size="lg" />
@@ -105,7 +108,7 @@ function BannerOverlay() {
             </a>
             <a href="https://github.com/Kojji" target="_blank">
               <button
-                className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-zinc-200 text-steelPink-600 hover:text-steelPink-800 hover:bg-white shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                 type="button"
               >
                 <FontAwesomeIcon icon={faGithub} size="lg" />
@@ -113,7 +116,7 @@ function BannerOverlay() {
             </a>
             <a href="https://www.instagram.com/nandokoji/" target="_blank">
               <button
-                className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-zinc-200 text-steelPink-600 hover:text-steelPink-800 hover:bg-white shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                 type="button"
               >
                 <FontAwesomeIcon icon={faInstagram} size="lg" />
@@ -124,7 +127,7 @@ function BannerOverlay() {
               target="_blank"
             >
               <button
-                className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-zinc-200 text-steelPink-600 hover:text-steelPink-800 hover:bg-white shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                 type="button"
               >
                 <FontAwesomeIcon icon={faLinkedin} size="lg" />
@@ -132,7 +135,7 @@ function BannerOverlay() {
             </a>
             <a href="https://codepen.io/kojji" target="_blank">
               <button
-                className="bg-emerald-700 hover:bg-emerald-900 text-white dark:bg-zinc-200 dark:text-pink-600 dark:hover:text-pink-800 dark:hover:bg-zinc-300 shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-zinc-200 text-steelPink-600 hover:text-steelPink-800 hover:bg-white shadow-lg font-normal h-9 w-9 items-center justify-center align-center rounded-full outline-none focus:outline-none"
                 type="button"
               >
                 <FontAwesomeIcon icon={faCodepen} size="lg" />
