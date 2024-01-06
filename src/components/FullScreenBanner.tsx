@@ -1,44 +1,26 @@
 import BannerOverlay from "./BannerOverlay";
 
-import "./FullScreenBanner.css";
-import "css-doodle";
+import Lottie from "react-lottie";
+import animationData from "../assets/bannerBackground2.json";
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      "css-doodle": {};
-    }
-  }
-}
-// corrigir - edit square size according to screen size
-// let doodleRule: string = `:doodle {
-//     @grid:100rem / 100vmax;
-//     grid-gap: 1px;
-//   }
-//   animation-name: example;
-//   animation-duration: 7s;
-//   animation-delay: @rand(-30s);
-//   animation-iteration-count: infinite;
-//   animation-direction: alternate;
-//   @keyframes example {
-//     0% {
-//       background: @pick(#9D4AC7, #C276E7, #D299EE, #DAB4EC, #DFC8E9);
-//     }
-//     50% {
-//       background: @pick(#9D4AC7, #C276E7, #D299EE, #DAB4EC, #DFC8E9);
-//     }
-//     100%{
-//       background: @pick(#9D4AC7, #C276E7, #D299EE, #DAB4EC, #DFC8E9);
-//     }`;
+import "./FullScreenBanner.css";
 
 function FullScreenBanner() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "none",
+    },
+  };
+
   return (
-    <section
-      id="animation-section"
-      className="md:bg-contain bg-cover bg-center w-full relative"
-    >
+    <section id="animation-section" className="relative container mx-auto">
       <BannerOverlay />
-      {/* <css-doodle>{doodleRule}</css-doodle> */}
+      <div className="object-fill h-full w-full">
+        <Lottie options={defaultOptions} />
+      </div>
     </section>
   );
 }
