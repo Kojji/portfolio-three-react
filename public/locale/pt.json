@@ -107,21 +107,76 @@
           "items": [
             {
               "title": "ECAC",
-              "valueMenu": "2024 - [Diploma] ECAC",
-              "valueLabel": "2023 ~ 2024 - [Tecnologis da Informação] ECA College",
-              "valueDescription": "Atualmente fazendo o curso vocacional 'Diploma in Information Technology' no ECA College Brisbane, com conclusão esperada em 2024."
+              "valueMenu": "2023~25 - ECA College",
+              "valueLabel": "2023~25 | ECA College - Graduate Diploma of Management",
+              "valueDescription": "Atualmente cursando \"Graduate Diploma of Management\" na Austrália, curso de pós graduação focado no ensino de tópicos associados à liderança, gestão e crescimento de negócios."
             },
             {
               "title": "ufgd",
-              "valueMenu": "2021 - [Diploma] UFGD",
-              "valueLabel": "2021 - [Engenheiro de Computação] UFGD",
+              "valueMenu": "2021 | UFGD",
+              "valueLabel": "2021 | UFGD - Bacharelado em Engenharia de Computação",
               "valueDescription": "Conclusão do curso de Engenharia de Computação na Universidade Federal da Grande Dourados (UFGD). Como critério de formação, realizei um estágio na empresa Dourasoft, e desenvolvi, com outro acadêmico, um sistema de coleta de dados do solo, composto de multiplos equipamentos de comunicação sem fio, denominado Agriv, como TCC."
             },
             {
               "title": "ifsp",
-              "valueMenu": "2013 - [Diploma] IFSP-SP",
-              "valueLabel": "2013 - [Técnico em Eletrônica] IFSP-SP",
+              "valueMenu": "2013 | IFSP-SP",
+              "valueLabel": "2013 | IFSP-SP - Técnico em Eletrônica",
               "valueDescription": "Conclusão do curso de Técnico em Eletrônica e Ensino Médio no Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Campus São Paulo (IFSP-SP). Como critérios de formação, realizei um estágio na empresa Aureon, e desenvolvi, junto com outros acadêmicos, um sistema de trava eletrônica por senha como TCC."
+            }
+          ]
+        },
+        {
+          "title": "online courses",
+          "value": "Cursos Online Principais",
+          "length" : "8",
+          "items": [
+            {
+              "title": "course-c-sharp-test-driven",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - C# Test-Driven Development",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/29b2b5bc9b6ca9031c018134d3afe374f2f5f76f069757c5c5fa7dfb13ede7ce?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BCdifR1RfQ8KnMz9OzxyCnQ%3D%3D\" target=\"_blank\">Clique aqui para ver o certificado.</a>"
+            },
+            {
+              "title": "course-building-web-api-asp-net-core",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Building Web APIs with ASP.NET Core in .NET",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/d40759fc7e6a0c666f91e5d776a88d8a1af4b5274ee8eee987f32e88b32bc80e?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bcr6p2%2BIhQjqGqV1wD8ekbQ%3D%3D\" target=\"_blank\">Clique aqui para ver o certificado.</a>"
+            },
+            {
+              "title": "course-business-analyst-and-project-manager",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Business Analyst and Project Manager Collaboration",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/61684ca9135bc60398b8d3747fc2e3928c07b9746c445f6c54389e8d5752c3f1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bx7dSEX4lQJKMD1%2BuIpoo0A%3D%3D\" target=\"_blank\">Clique aqui para ver o certificado.</a>"
+            },
+            {
+              "title": "course-business-analyst-essentials",
+              "valueMenu": "2023 - Microsoft",
+              "valueLabel": "2023 | Microsoft - Career Essentials in Business Analysis by Microsoft and LinkedIn",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/c46d45766f5e1f6ca0ac97bbe26e4da8febc3048749f60eff305637f44a55ede?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bx7dSEX4lQJKMD1%2BuIpoo0A%3D%3D\" target=\"_blank\">Clique aqui para ver o certificado.</a>"
+            },
+            {
+              "title": "course-project-management-requirements",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Project Management Foundations: Requirements",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/962d805f6cee9109342fe849e553b51b18d7e32f790d29d32d09910dca9d6482?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BLNJ2W9MDSfSrOv0CJ96BIw%3D%3D\" target=\"_blank\">Clique aqui para ver o certificado.</a>"
+            },
+            {
+              "title": "course-business-analysis-foundations",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Business Analysis Foundations",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/6152b12a7e00b954c46bc7597cbbc32da8776b48b2c3703b642c296807d4b3cd?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BLNJ2W9MDSfSrOv0CJ96BIw%3D%3D\" target=\"_blank\">Clique aqui para ver o certificado.</a>"
+            },
+            {
+              "title": "course-requirement-elicitation-analysis",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Requirements Elicitation and Analysis",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/30f866a2e2f88c78e1ea793aa5af927ef696271980bd5a911184ccc5fee5c948?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B90UrZQPUQ6eflh6ds%2FAZeA%3D%3D\" target=\"_blank\">Clique aqui para ver o certificado.</a>"
+            },
+            {
+              "title": "course-what-is-business-analysis",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - What Is Business Analysis?",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/f72e8a891ca9ce36df3e0c2fee65ff422c4d35f9425c6ceac916825fea63af74?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B90UrZQPUQ6eflh6ds%2FAZeA%3D%3D\" target=\"_blank\">Clique aqui para ver o certificado.</a>"
             }
           ]
         },
@@ -132,29 +187,23 @@
           "items": [
             {
               "title": "ccp",
-              "valueMenu": "2022 - [CCP] AWS",
-              "valueLabel": "2022 - [Certified Cloud Practitioner (CCP)] AWS",
-              "valueDescription": "Certificado referente à aprovação no exame <i>Certified Cloud Practitioner</i> (CCP) da AWS."
+              "valueMenu": "2022 - AWS",
+              "valueLabel": "2022 | AWS - Certified Cloud Practitioner (CCP)",
+              "valueDescription": "Certificado concedido mediante à aprovação no exame Certified Cloud Practitioner (CCP) da AWS."
             },
             {
               "title": "cae",
-              "valueMenu": "2018 - [CAE] Cambrigde",
-              "valueLabel": "2018 - [Certificate in Advanced English (CAE)] Cambridge English",
-              "valueDescription": "Certificado de pontuação 193 no exame <i>Certificate in Advanced English</i> (CAE) de Cambridge, equivalente ao nível C1 do <i>CEFR</i>."
+              "valueMenu": "2018 - Cambridge English",
+              "valueLabel": "2018 | Cambridge English - Certificate in Advanced English (CAE)",
+              "valueDescription": "Certificado de pontuação 193 no exame Certificate in Advanced English (CAE) de Cambridge, equivalente ao nível C1 do CEFR."
             },
             {
               "title": "fce",
-              "valueMenu": "2017 - [FCE] Cambrigde",
-              "valueLabel": "2017 - [First Certificate in English (FCE)] Cambrigde English",
-              "valueDescription": "Certificado de pontuação 183 no exame <i>First Certificate in English</i> (FCE) de Cambridge, equivalente ao nível C1 do <i>CEFR</i>."
+              "valueMenu": "2017 | Cambridge English",
+              "valueLabel": "2017 | Cambridge English - First Certificate in English (FCE)",
+              "valueDescription": "Certificado de pontuação 183 no exame First Certificate in English (FCE) de Cambridge, equivalente ao nível C1 do CEFR."
             }
           ]
-        },
-        {
-          "title": "online courses",
-          "value": "Cursos Online",
-          "length" : "0",
-          "items": []
         }
       ]
     },
@@ -259,11 +308,12 @@
     "Personal": {
       "PageTitle": "Sobre Mim",
       "Paragraphs": [
-        "Olá, sou o Fernando. Formado em Engenharia de Computação, sou um desenvolvedor web. Atuando principalmente com back end. Já tive atuações como desenvolvedor full stack e desenvolvi alguns outros projetos só no front end ou só no back end, que podem ser vistos na aba <b>\"Experiência\"</b>. Meu stack de desenvolvimento principal é composto de Vue.js, Node.js, Typescript e serviços AWS, mas tenho conhecimento em outros conceitos e tecnologias. Para ter uma descrição mais detalhada do que eu sei, pode ir direto na aba <b>\"Habilidades\"</b>.",
-        "Dentro do desenvolvimento web, meus maiores interesses são, o <b>desenvolvimento de APIs e animações CSS/JS</b>. Infelizmente ainda não tenho as habilidades necessárias para ser capaz de desenvolver plenamente as animações que imagino. Mas acredito que um dia chegarei lá. Apesar de já ter um pouco de experiência no desenvolvimento de APIs, reconheço que há muito espaço para crescimento, ainda mais nessa área que demanda evolução constante, mas acredito ter o potêncial e a persistência necessária para o aprendizado.",
-        "Acredito que nesta página tenha uma boa quantidade de informações sobre mim, minhas competências e experiências. Se desejar, há <b>links no rodapé</b> desta página que podem ser úteis para ver mais coisas sobre mim, ou entrar em contato. Espero que você goste deste meu portfolio. 😁"
+        "Olá, sou o Fernando. Formado em Engenharia de Computação, estou no meio da jornada para adquirir mais experiências e que irão servir de fundação para uma longa e bem sucedida carreira em TI.",
+        "Como resultado de meus esforços até o momento, eu juntei experiências de trabalho valiosas e desenvolvi uma vasta gama de habilidades. Entre elas, a habilidade de me comunicar com diversos tipos de audiência, uma mentalidade analítica para resolução de problemas, conceitos de negócios e metodologias de trabalho.",
+        "Neste portfolio uma quantidade extensa de informações pode ser encontrada sobre minhas experiências de trabalho prévias na aba <b>\"Experiência\"</b>, a aba <b>\"Formação\"</b> contém informações relacionadas a cursos online, certificações e diplomas que já adquiri. Através de estudos por conta própria, experiências de trabalho e formação acadêmica, as habilidades que venho adquirindo em todos esses anos estão listadas na aba <b>\"Skills\"</b>.",
+        "Apesar de a maioria de minhas experiências de trabalho prévias terem sido em desenvolvimento web com VueJs e NodeJs, constantemente venho aprofundando meus conhecimentos em diferentes aspectos de desenvolvimento de softwares e análise de negócios. Meu objetivo profissional é trabalhar como desenvolvedor e agarrar oportunidades até o momento que poderei usar todas as minhas habilidades em gerência, conhecimento e experiência em TI para trabalhar como um Analista de negócios em TI ou outros cargos de gerência."
       ],
-      "length": "3"
+      "length": "4"
     },
     "Skills": {
       "PageTitle": "Minhas Habilidades",

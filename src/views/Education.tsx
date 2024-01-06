@@ -12,8 +12,8 @@ function Education() {
       id="education-section"
       className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10"
     >
-      {windowWidthState <= 768 && <EducationSectionSmScreen />}
-      {windowWidthState > 768 && <EducationSectionMdScreen />}
+      {windowWidthState < 1024 && <EducationSectionSmScreen />}
+      {windowWidthState >= 1024 && <EducationSectionMdScreen />}
     </div>
   );
 }

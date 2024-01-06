@@ -75,7 +75,7 @@ function EducationSectionMdScreen() {
 
   return (
     <div>
-      <div className="px-10 flex flex-col">
+      <div className="px-4 flex flex-col">
         <h2 className="py-4 mx-auto font-bold lg:text-3xl text-2xl">
           {t("InfoCards.Education.PageTitle")}
         </h2>
@@ -85,7 +85,7 @@ function EducationSectionMdScreen() {
               return getContentTable(index);
             })}
           </div>
-          <div className="w-full lg:px-10 px-5">
+          <div className="w-full px-5">
             {sectionItemsInArray.map((_, index) => {
               return getContentTexts(index);
             })}

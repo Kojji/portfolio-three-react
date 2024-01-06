@@ -12,8 +12,8 @@ function Experience() {
       id="experience-section"
       className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10"
     >
-      {windowWidthState <= 768 && <ExperienceSectionSmScreen />}
-      {windowWidthState > 768 && <ExperienceSectionMdScreen />}
+      {windowWidthState < 1024 && <ExperienceSectionSmScreen />}
+      {windowWidthState >= 1024 && <ExperienceSectionMdScreen />}
     </div>
   );
 }

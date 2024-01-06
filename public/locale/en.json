@@ -102,26 +102,81 @@
       "Sections": [
         {
           "title": "education",
-          "value": "Education",
+          "value": "Formal Education",
           "length" : "3",
           "items": [
             {
               "title": "ECAC",
-              "valueMenu": "2024 - [Diploma] ECAC",
-              "valueLabel": "2023 ~ 2024 - [Information Technology] ECA College",
-              "valueDescription": "Currently doing the Vocational Course 'Diploma in Information Technology' on ECA College Brisbane, with expected conclusion in 2024."
+              "valueMenu": "2023~25 - ECA College",
+              "valueLabel": "2023~25 | ECA College - Graduate Diploma of Management",
+              "valueDescription": "Currently undertaking this postgraduate course, skills associated with business growth, business management and leadership are being acquired through practical and experiential lessons."
             },
             {
               "title": "ufgd",
-              "valueMenu": "2021 - [Diploma] UFGD",
-              "valueLabel": "2021 - [Computer Engineering] UFGD",
-              "valueDescription": "Degree obtained by concluding the Computer Engineering course at <i>Universidade Federal da Grande Dourados</i> (UFGD). As course conclusion critereas, I've done an intership at Dourasoft, and for the final paper, I've developed a system to collect data from the soil, which is based on networking multiple wireless sensor nodes, named Agriv with another student."
+              "valueMenu": "2021 - UFGD",
+              "valueLabel": "2021 | UFGD - Bachelor of Computer Engineering",
+              "valueDescription": "Degree obtained by concluding the Computer Engineering course at 'Universidade Federal da Grande Dourados (UFGD)'. As course conclusion critereas, I've done an intership at Dourasoft and published a paper on the design and  development of a system to collect data from the soil, which is based on networking multiple wireless sensor nodes, named Agriv, with another student."
             },
             {
               "title": "ifsp",
-              "valueMenu": "2013 - [Diploma] IFSP-SP",
-              "valueLabel": "2013 - [Electronics Technician] IFSP-SP",
-              "valueDescription": "Degree obtained by concluding the Electonics Technician integrated with High School course at <i>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Campus São Paulo</i> (IFSP-SP). As course conclusion critereas, I've done an intership at Aureon, and with other students, we developed a digital door lock system for the final paper."
+              "valueMenu": "2013 - IFSP-SP",
+              "valueLabel": "2013 | IFSP-SP - Electronics Technician",
+              "valueDescription": "Degree obtained by concluding the Electonics Technician integrated with Secondary School course at 'Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Campus São Paulo (IFSP-SP)'. As course conclusion critereas, I've done an intership at Aureon, and with other students, we developed a digital door lock system for the final paper."
+            }
+          ]
+        },
+        {
+          "title": "online courses",
+          "value": "Main Online Courses",
+          "length" : "8",
+          "items": [
+            {
+              "title": "course-c-sharp-test-driven",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - C# Test-Driven Development",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/29b2b5bc9b6ca9031c018134d3afe374f2f5f76f069757c5c5fa7dfb13ede7ce?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BCdifR1RfQ8KnMz9OzxyCnQ%3D%3D\" target=\"_blank\">Click here to see the certificate.</a>"
+            },
+            {
+              "title": "course-building-web-api-asp-net-core",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Building Web APIs with ASP.NET Core in .NET",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/d40759fc7e6a0c666f91e5d776a88d8a1af4b5274ee8eee987f32e88b32bc80e?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bcr6p2%2BIhQjqGqV1wD8ekbQ%3D%3D\" target=\"_blank\">Click here to see the certificate.</a>"
+            },
+            {
+              "title": "course-business-analyst-and-project-manager",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Business Analyst and Project Manager Collaboration",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/61684ca9135bc60398b8d3747fc2e3928c07b9746c445f6c54389e8d5752c3f1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bx7dSEX4lQJKMD1%2BuIpoo0A%3D%3D\" target=\"_blank\">Click here to see the certificate.</a>"
+            },
+            {
+              "title": "course-business-analyst-essentials",
+              "valueMenu": "2023 - Microsoft",
+              "valueLabel": "2023 | Microsoft - Career Essentials in Business Analysis by Microsoft and LinkedIn",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/c46d45766f5e1f6ca0ac97bbe26e4da8febc3048749f60eff305637f44a55ede?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bx7dSEX4lQJKMD1%2BuIpoo0A%3D%3D\" target=\"_blank\">Click here to see the certificate.</a>"
+            },
+            {
+              "title": "course-project-management-requirements",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Project Management Foundations: Requirements",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/962d805f6cee9109342fe849e553b51b18d7e32f790d29d32d09910dca9d6482?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BLNJ2W9MDSfSrOv0CJ96BIw%3D%3D\" target=\"_blank\">Click here to see the certificate.</a>"
+            },
+            {
+              "title": "course-business-analysis-foundations",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Business Analysis Foundations",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/6152b12a7e00b954c46bc7597cbbc32da8776b48b2c3703b642c296807d4b3cd?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BLNJ2W9MDSfSrOv0CJ96BIw%3D%3D\" target=\"_blank\">Click here to see the certificate.</a>"
+            },
+            {
+              "title": "course-requirement-elicitation-analysis",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - Requirements Elicitation and Analysis",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/30f866a2e2f88c78e1ea793aa5af927ef696271980bd5a911184ccc5fee5c948?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B90UrZQPUQ6eflh6ds%2FAZeA%3D%3D\" target=\"_blank\">Click here to see the certificate.</a>"
+            },
+            {
+              "title": "course-what-is-business-analysis",
+              "valueMenu": "2023 - LinkedIn",
+              "valueLabel": "2023 | LinkedIn - What Is Business Analysis?",
+              "valueDescription": "<a style=\"color:blue;\" href=\"https://www.linkedin.com/learning/certificates/f72e8a891ca9ce36df3e0c2fee65ff422c4d35f9425c6ceac916825fea63af74?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B90UrZQPUQ6eflh6ds%2FAZeA%3D%3D\" target=\"_blank\">Click here to see the certificate.</a>"
             }
           ]
         },
@@ -132,29 +187,23 @@
           "items": [
             {
               "title": "ccp",
-              "valueMenu": "2022 - [CCP] AWS",
-              "valueLabel": "2022 - [Certified Cloud Practitioner (CCP)] AWS",
-              "valueDescription": "Amazon Web Services (AWS) certification regarding passing grade at Certified Cloud Practitioner (CCP) examination."
+              "valueMenu": "2022 - AWS",
+              "valueLabel": "2022 | AWS - Certified Cloud Practitioner (CCP)",
+              "valueDescription": "Amazon Web Services (AWS) certification, granted by surpassing passing grade at the AWS Certified Cloud Practitioner (CCP) examination."
             },
             {
               "title": "cae",
-              "valueMenu": "2018 - [CAE] Cambrigde",
-              "valueLabel": "2018 - [Certificate in Advanced English (CAE)] Cambrigde English",
+              "valueMenu": "2018 - Cambridge English",
+              "valueLabel": "2018 | Cambridge English - Certificate in Advanced English (CAE)",
               "valueDescription": "Certification regarding the score of 193 at Cambridge's Certificate in Advanced English (CAE) examination, equivalent to CEFR's C1 Level."
             },
             {
               "title": "fce",
-              "valueMenu": "2017 - [FCE] Cambrigde",
-              "valueLabel": "2017 - [First Certificate in English (FCE)] Cambrigde English",
+              "valueMenu": "2017 - Cambridge English",
+              "valueLabel": "2017 | Cambridge English - First Certificate in English (FCE)",
               "valueDescription": "Certification regarding the score of 183 at Cambridge's First Certificate in English (FCE) examination, equivalent to CEFR's C1 Level."
             }
           ]
-        },
-        {
-          "title": "online courses",
-          "value": "Online Courses",
-          "length" : "0",
-          "items": []
         }
       ]
     },
