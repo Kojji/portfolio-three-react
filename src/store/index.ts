@@ -1,7 +1,7 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import navBarReducer from './App/navBarStatus';
 import accordionActiveReducer from './FAQAccordion/accordionActive';
-import machineInfoReducer from './Machine/machineInfo';
+import languageReducer from './App/language';
 import windowWidthReducer from './App/windowWidth';
 
 export const store = configureStore({
@@ -9,7 +9,7 @@ export const store = configureStore({
     accordionActive: accordionActiveReducer,
     navBar: navBarReducer,
     windowWidth: windowWidthReducer,
-    machineInfo: machineInfoReducer
+    language: languageReducer
   },
 });
 

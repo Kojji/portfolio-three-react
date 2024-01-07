@@ -1,16 +1,29 @@
 import logo from "../assets/logo-white.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { useAppDispatch } from "../store/hooks";
+import { useAppSelector, useAppDispatch } from "../store/hooks";
 import { toggleNavBar } from "../store/App/navBarStatus";
+import { getLanguageState, updateLanguage } from "../store/App/language";
 import "./SideBar.css";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
 function SideBar() {
-  const { t } = useTranslation();
+  const {
+    t,
+    i18n: { changeLanguage },
+  } = useTranslation();
   const dispatch = useAppDispatch();
   const navigate = useNavigate();
+
+  const languageState = useAppSelector(getLanguageState);
+
+  function editLanguage(newLanguage: string) {
+    if (newLanguage !== languageState) {
+      dispatch(updateLanguage(newLanguage));
+      changeLanguage(newLanguage);
+    }
+  }
 
   function closeSideBar() {
     dispatch(toggleNavBar());
@@ -63,6 +76,30 @@ function SideBar() {
         >
           <FontAwesomeIcon icon={faXmark} className="fa-2x" />
         </button>
+      </div>
+      <div className="self-center gap-2 flex mt-3">
+        {/* <div className="w-24 h-12 rounded-full g-2"> */}
+        <button
+          type="button"
+          onClick={() => editLanguage("en")}
+          className={
+            "w-12 h-12 text-zinc-100 hover:opacity-100 font-bold bg-steelPink-600 " +
+            (languageState !== "en" ? "opacity-50" : "opacity-100")
+          }
+        >
+          EN
+        </button>
+        <button
+          type="button"
+          onClick={() => editLanguage("pt")}
+          className={
+            "w-12 h-12 text-zinc-100 hover:opacity-100 font-bold bg-steelPink-600 " +
+            (languageState !== "pt" ? "opacity-50" : "opacity-100")
+          }
+        >
+          PT
+        </button>
+        {/* </div> */}
       </div>
       <div className="pt-4 flex flex-col">{getMenuItems()}</div>
     </div>

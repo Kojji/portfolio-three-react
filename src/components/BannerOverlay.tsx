@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -9,23 +8,26 @@ import {
   faLinkedin,
   faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
-import { useAppSelector } from "../store/hooks";
+import { useAppSelector, useAppDispatch } from "../store/hooks";
 
 import logo from "../assets/logo-white.png";
 import "./BannerOverlay.css";
 
 import { getWindowWidthState } from "../store/App/windowWidth";
+import { getLanguageState, updateLanguage } from "../store/App/language";
 
 function BannerOverlay() {
   const {
     t,
-    i18n: { changeLanguage, language },
+    i18n: { changeLanguage },
   } = useTranslation();
-  const [currentLanguage, setCurrentLanguage] = useState(language);
+  const dispatch = useAppDispatch();
+
+  const languageState = useAppSelector(getLanguageState);
 
   function editLanguage(newLanguage: string) {
-    if (newLanguage !== currentLanguage) {
-      setCurrentLanguage(newLanguage);
+    if (newLanguage !== languageState) {
+      dispatch(updateLanguage(newLanguage));
       changeLanguage(newLanguage);
     }
   }
@@ -48,7 +50,7 @@ function BannerOverlay() {
                 onClick={() => editLanguage("en")}
                 className={
                   "rounded-full w-12 h-12 text-zinc-100 hover:opacity-100 font-bold bg-steelPink-600 " +
-                  (currentLanguage !== "en" ? "opacity-50" : "opacity-100")
+                  (languageState !== "en" ? "opacity-50" : "opacity-100")
                 }
               >
                 EN
@@ -58,7 +60,7 @@ function BannerOverlay() {
                 onClick={() => editLanguage("pt")}
                 className={
                   "rounded-full w-12 h-12 text-zinc-100 hover:opacity-100 font-bold bg-steelPink-600 " +
-                  (currentLanguage !== "pt" ? "opacity-50" : "opacity-100")
+                  (languageState !== "pt" ? "opacity-50" : "opacity-100")
                 }
               >
                 PT

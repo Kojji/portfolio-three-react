@@ -10,9 +10,11 @@ import CallToActionsSmScreen from "./components/CallToActionsSmComponent";
 import ReturnToTopButton from "./components/FixedSmScreenButtons";
 
 import { useAppSelector, useAppDispatch } from "./store/hooks";
-import { updateWindowWidth } from "./store/App/windowWidth";
+import {
+  updateWindowWidth,
+  getWindowWidthState,
+} from "./store/App/windowWidth";
 import { getNavBarState } from "./store/App/navBarStatus";
-import { getWindowWidthState } from "./store/App/windowWidth";
 
 function App() {
   const dispatch = useAppDispatch();
