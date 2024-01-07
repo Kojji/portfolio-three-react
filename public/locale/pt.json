@@ -27,11 +27,13 @@
   ],
   "HomeBanner": {
     "CallToAction": "Contate me",
-    "CallToActionResume": "Curriculo",
+    "CallToActionResumeDev": "Curriculo Desenvolvedor de Software",
+    "CallToActionResumeBA": "Curriculo Análista de Negócios",
     "Profession": "Desenvolvedor",
     "ExtraProfession": "Aspirante a Analista de negócios",
     "PhoneNumber": "+5511934282440",
-    "ViewResume": "https://docs.google.com/document/d/1sunVS8-psdI90JYLiLgU5omjdT3s0ulgRJ-YcKyGgTY/edit?usp=sharing"
+    "ViewResumeDev": "https://docs.google.com/document/d/1sunVS8-psdI90JYLiLgU5omjdT3s0ulgRJ-YcKyGgTY/edit?usp=sharing",
+    "ViewResumeBA": "https://docs.google.com/document/d/1sunVS8-psdI90JYLiLgU5omjdT3s0ulgRJ-YcKyGgTY/edit?usp=sharing"
   },
   "InfoCards": {
     "Education": {

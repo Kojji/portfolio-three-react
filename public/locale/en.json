@@ -27,11 +27,13 @@
   ],
   "HomeBanner": {
     "CallToAction": "Contact Me",
-    "CallToActionResume": "Resume",
+    "CallToActionResumeDev": "Software Developer Resume",
+    "CallToActionResumeBA": "Business Analyst Resume",
     "Profession": "Developer",
     "ExtraProfession": "Business Analyst",
     "PhoneNumber": "+61416460092",
-    "ViewResume": "https://docs.google.com/document/d/1GuF8Cmcnx14_NCsiQX1c5XChN99t3MwE1n1F9QkVNwQ/edit?usp=sharing"
+    "ViewResumeDev": "https://docs.google.com/document/d/1sunVS8-psdI90JYLiLgU5omjdT3s0ulgRJ-YcKyGgTY/edit?usp=sharing",
+    "ViewResumeBA": "https://docs.google.com/document/d/1sunVS8-psdI90JYLiLgU5omjdT3s0ulgRJ-YcKyGgTY/edit?usp=sharing"
   },
   "InfoCards": {
     "Education": {

@@ -17,20 +17,15 @@ function SideBar() {
   }
 
   function redirectToId(index: number) {
-    if (index == 6) {
-      closeSideBar();
-      navigate(t(`HorizontalMenu.${index}.route`));
-    } else {
-      navigate(t(`HorizontalMenu.${index}.route`));
-      closeSideBar();
-      let routeSection = document.getElementById("route-section");
-      routeSection?.scrollIntoView({ behavior: "smooth" });
-    }
+    navigate(t(`HorizontalMenu.${index}.route`));
+    closeSideBar();
+    let routeSection = document.getElementById("route-section");
+    routeSection?.scrollIntoView({ behavior: "smooth" });
   }
 
   const getMenuItems = () => {
     let content = [];
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 4; i++) {
       content.push(
         <a key={i}>
           <button

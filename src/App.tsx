@@ -7,7 +7,6 @@ import SideBar from "./components/SideBar";
 import FullScreenBanner from "./components/FullScreenBanner";
 import MenuMdScreen from "./components/MenuMdComponent";
 import CallToActionsSmScreen from "./components/CallToActionsSmComponent";
-import NavMenuSmScreen from "./components/NavMenuSmScreen";
 import ReturnToTopButton from "./components/FixedSmScreenButtons";
 
 import { useAppSelector, useAppDispatch } from "./store/hooks";
@@ -53,11 +52,6 @@ function App() {
         <div>
           <Recommendations />
         </div>
-        {windowWidthState <= 768 && (
-          <div>
-            <NavMenuSmScreen />
-          </div>
-        )}
       </div>
       <Footer />
     </div>
