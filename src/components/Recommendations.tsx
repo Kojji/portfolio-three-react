@@ -50,8 +50,8 @@ function Recommendations() {
             type="button"
             onClick={() => handlePrevious()}
             className={
-              "w-36 rounded text-zinc-100 hover:opacity-100 font-bold bg-steelPink-600 " +
-              (index <= 0 ? "opacity-50" : "opacity-100")
+              "w-36 rounded text-zinc-100 font-bold bg-purple-600 " +
+              (index <= 0 ? "opacity-50" : "opacity-100 hover:bg-purple-700")
             }
           >
             Previous
@@ -60,8 +60,10 @@ function Recommendations() {
             type="button"
             onClick={() => handleNext()}
             className={
-              "w-36 rounded text-zinc-100 hover:opacity-100 font-bold bg-steelPink-600 " +
-              (index >= sectionItemsInArray - 1 ? "opacity-50" : "opacity-100")
+              "w-36 rounded text-zinc-100 font-bold bg-purple-600 " +
+              (index >= sectionItemsInArray - 1
+                ? "opacity-50"
+                : "opacity-100 hover:bg-purple-700")
             }
           >
             Next

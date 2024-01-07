@@ -30,10 +30,8 @@ function FAQAccordion({ title, children, index }: AccordionItem) {
     <div>
       <div className="flex flex-col">
         <div
-          className={`flex justify-between px-2 py-4 items-center shadow-lg my-1 rounded-lg dark:text-zinc-100 cursor-pointer ${
-            accordionActiveState === index
-              ? "bg-stone-200 dark:bg-zinc-600"
-              : "bg-zinc-50 dark:bg-zinc-500"
+          className={`flex justify-between px-2 py-4 items-center shadow-lg my-1 rounded-lg text-zinc-100 cursor-pointer ${
+            accordionActiveState === index ? "bg-zinc-600" : "bg-zinc-500"
           }`}
           onClick={toggleAccordion}
         >
@@ -41,7 +39,7 @@ function FAQAccordion({ title, children, index }: AccordionItem) {
             {title}
           </span>
           <button
-            className="relative inline-block text-emerald-700 hover:text-emerald-900 dark:text-white dark:hover:text-pink-400 items-center justify-center align-center outline-none focus:outline-none mx-2"
+            className="relative inline-block text-white hover:text-purple-400 items-center justify-center align-center outline-none focus:outline-none mx-2"
             type="button"
           >
             <FontAwesomeIcon
