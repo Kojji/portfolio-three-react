@@ -1,4 +1,3 @@
-import awsLogo from "/src/assets/amazon-web-services-logo.png";
 import { useTranslation } from "react-i18next";
 
 function Skills() {
@@ -25,7 +24,7 @@ function Skills() {
     },
     {
       name: "AWS",
-      iconUrl: awsLogo,
+      iconUrl: "",
       alt: "amazon web services icon",
     },
     {
@@ -65,31 +64,31 @@ function Skills() {
   return (
     <div
       id="skill-section"
-      className="container mx-auto bg-gray-200 rounded-xl shadow border md:px-10 px-5 flex flex-col m-10"
+      className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10 max-w-screen-md"
     >
-      <h2 className="py-4 mx-auto font-bold lg:text-3xl md:text-2xl text-xl">
+      <h2 className="text-3xl text-center text-gray-700 font-bold mb-5">
         {t("InfoCards.Skills.PageTitle")}
       </h2>
-      <div className="inline-flex">
-        <div className="px-3 py-4 lg:w-1/4 w-1/3 h-min bg-purple-100 rounded-md drop-shadow-lg">
-          <div className="px-3 bg-gray-100 font-semibold xl:text-lg text-base rounded-t-md uppercase">
-            {t("InfoCards.Skills.CardOne")}
-          </div>
-          <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
-            {skillIcons.map(({ name, iconUrl, alt }, key) => (
-              <div className="md:p-3 my-2" key={key}>
-                <img
-                  src={iconUrl}
-                  className={name === "AWS" ? "rounded my-4" : "rounded"}
-                  alt={alt}
-                />
-                <p className="font-semibold">{name}</p>
-              </div>
-            ))}
-          </div>
+      <div className="w-full">
+        <div className="skill-text">{getSkillText()}</div>
+      </div>
+      <div className="px-3 py-4 w-full h-min bg-purple-100 rounded-md drop-shadow-lg">
+        <div className="px-3 bg-gray-100 font-semibold xl:text-lg text-base rounded-t-md uppercase">
+          {t("InfoCards.Skills.CardOne")}
         </div>
-        <div className="w-full lg:px-10 px-5">
-          <div className="skill-text">{getSkillText()}</div>
+        <div className="flex flex-wrap space-x-6 justify-center">
+          {skillIcons.map(({ name, iconUrl, alt }, key) => (
+            <div className="md:p-3 my-2" key={key}>
+              <img
+                src={iconUrl}
+                width={150}
+                height={150}
+                className={name === "AWS" ? "rounded my-4" : "rounded"}
+                alt={alt}
+              />
+              <p className="font-semibold">{name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

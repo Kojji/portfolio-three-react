@@ -2,7 +2,6 @@ import About from "./views/About";
 import Education from "./views/Education";
 import Experience from "./views/Experience";
 import Skills from "./views/Skills";
-import Animations from "./views/Animations";
 
 export const routes = [
   {
@@ -24,11 +23,6 @@ export const routes = [
     name: "skill",
     path: "/skill",
     element: <Skills />,
-  },
-  {
-    name: "animation",
-    path: "/animation",
-    element: <Animations />,
   },
 ];
 

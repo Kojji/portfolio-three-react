@@ -39,7 +39,7 @@ function App() {
       <div>
         <div>
           {windowWidthState <= 768 && <CallToActionsSmScreen />}
-          {windowWidthState > 768 && <MenuMdScreen />}
+          <MenuMdScreen />
         </div>
         <div id="route-section">
           <Routes>

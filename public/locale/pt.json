@@ -23,18 +23,6 @@
       "title": "skill",
       "route": "/skill",
       "value": "Habilidades"
-    },
-    {
-      "id": "menuAnimation",
-      "title": "animation",
-      "route": "/animation",
-      "value": "Animações"
-    },
-    {
-      "id": "recommendations",
-      "title": "recommendations",
-      "route": "#recommendations",
-      "value": "Recomendações"
     }
   ],
   "HomeBanner": {
@@ -46,57 +34,6 @@
     "ViewResume": "https://docs.google.com/document/d/1sunVS8-psdI90JYLiLgU5omjdT3s0ulgRJ-YcKyGgTY/edit?usp=sharing"
   },
   "InfoCards": {
-    "Animation": {
-      "PageTitle": "Minhas Animações",
-      "NavMessage": "Pressione ou deixe o mouse na imagem",
-      "TextOne": "Esta seção é uma galeria das animações em CSS/JS que venho fazendo como hobby. Ao colocar o mouse sobre as imagens, ou pressioná-las, é possível visualizar um vídeo da animação. Mas se quiser vê-las sendo executadas, é só clicar no nome de cada uma para ir ao meu Codepen. 😉",
-      "TextTwo": "",
-      "SectionLength": "7",
-      "Sections": [
-        {
-          "name": "Cooking Kirby",
-          "component": "/src/assets/videos/cookingKirby.mp4",
-          "reference": "kirbyVid",
-          "link": "https://codepen.io/kojji/full/LYdqqjr"
-        },
-        {
-          "name": "Octopiano",
-          "component": "/src/assets/videos/octopiano.mp4",
-          "reference": "octopianoVid",
-          "link": "https://codepen.io/kojji/full/abVxxOQ"
-        },
-        {
-          "name": "Surfing Pikachu",
-          "component": "/src/assets/videos/surfing.mp4",
-          "reference": "surfingPikachuVid",
-          "link": "https://codepen.io/kojji/full/poaYvVL"
-        },
-        {
-          "name": "GSAP outlines rotation",
-          "component": "/src/assets/videos/rotating.mp4",
-          "reference": "rotatingVid",
-          "link": "https://codepen.io/kojji/full/LYdgmdg"
-        },
-        {
-          "name": "GSAP Rotating Squares",
-          "component": "/src/assets/videos/squares.mp4",
-          "reference": "squaresVid",
-          "link": "https://codepen.io/kojji/full/poLxrMW"
-        },
-        {
-          "name": "Beach Waves",
-          "component": "/src/assets/videos/shortVer.mp4",
-          "reference": "beachVid",
-          "link": "https://codepen.io/kojji/full/QWOJJGQ"
-        },
-        {
-          "name": "City Lights",
-          "component": "/src/assets/videos/city_lights.mp4",
-          "reference": "cityLightsVid",
-          "link": "https://codepen.io/kojji/full/zYPyPJV"
-        }
-      ]
-    },
     "Education": {
       "PageTitle": "Formação",
       "Sections": [
