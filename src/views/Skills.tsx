@@ -3,6 +3,10 @@ import { useTranslation } from "react-i18next";
 function Skills() {
   const { t } = useTranslation();
 
+  const sectionBadgeItemsInArray: number = Number(
+    t(`InfoCards.Skills.Badges.SectionLength`)
+  );
+
   const skillIcons = [
     {
       name: "Node.js",
@@ -46,6 +50,27 @@ function Skills() {
     },
   ];
 
+  function getSkillBadges() {
+    let content = [];
+    for (let i = 0; i < sectionBadgeItemsInArray; i++) {
+      content.push(
+        <div className="md:p-3 my-2" key={i}>
+          <img
+            src={t(`InfoCards.Skills.Badges.Icons.${i}.iconUrl`)}
+            width={150}
+            height={150}
+            className="rounded"
+            alt={t(`InfoCards.Skills.Badges.Icons.${i}.alt`)}
+          />
+          <p className="font-semibold text-center">
+            {t(`InfoCards.Skills.Badges.Icons.${i}.name`)}
+          </p>
+        </div>
+      );
+    }
+    return content;
+  }
+
   function getSkillText() {
     let content = [];
     for (let i = 0; i < 4; i++) {
@@ -73,22 +98,8 @@ function Skills() {
         <div className="skill-text">{getSkillText()}</div>
       </div>
       <div className="px-3 py-4 w-full h-min bg-purple-100 rounded-md drop-shadow-lg">
-        <div className="px-3 bg-gray-100 font-semibold xl:text-lg text-base rounded-t-md uppercase">
-          {t("InfoCards.Skills.CardOne")}
-        </div>
         <div className="flex flex-wrap space-x-6 justify-center">
-          {skillIcons.map(({ name, iconUrl, alt }, key) => (
-            <div className="md:p-3 my-2" key={key}>
-              <img
-                src={iconUrl}
-                width={150}
-                height={150}
-                className={name === "AWS" ? "rounded my-4" : "rounded"}
-                alt={alt}
-              />
-              <p className="font-semibold">{name}</p>
-            </div>
-          ))}
+          {getSkillBadges()}
         </div>
       </div>
     </div>

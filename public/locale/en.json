@@ -211,14 +211,71 @@
     "Skills": {
       "PageTitle": "Skills",
       "Paragraphs": [
-        "The card on the left is there to provide a more straight display of my main skills, the reading of the beneath parts and the <b>\"Experience\"</b> tab are complementary to each other, giving a little more understanding of my capabilities and current knowledge.",
-        "In terms of API development, I've had professional experience using PHP with Cake PHP, but ever since that, I've been using <b>Node.js with Express.js or AdonisJs, and typescript</b>. Unfortunately, I'm not very familiar to automated testing on a professional environment, but I've started studying about unit testing and Ent-to-End testing. Besides that, I've acquired some other skills, for example, <b>usage of sockets; conteiners; cloud services like firebase, GCP and AWS; and creation of linux based web servers</b> from previous experiences.",
-        "About front end development, I'm more knowledgeable about <b>Vue.js with some component frameworks such as Quasar, Vuetify, Bootstrap and Tailwind</b>. Due to previous expereiences, I've also learned <b>vanilla HTML, Javascript and CSS</b>.",
-        "At the moment, in my spare time, <b>I've been aiming to acquire more knowledge on CSS and JS animations, creation and manipulation of SVGs, automated testing and AWS cloud architecturing</b>."
+        "As a result of my professional development, I have acquired technical skills and gained knowledge in Software Development and Business Analysis. This section complements the results of my previous efforts described in the <b>\"Experience\"</b> and <b>\"Education\"</b> sections.",
+        "While I have come into contact with various technologies and tools, below is a list of those I am most proficient in. I have acquired expertise in these through coursework, work experiences, and self-study.",
+        "In addition to the technologies and tools mentioned, I have gained a comprehensive understanding of Business Analysis and Software Development concepts, encompassing <b>SQL Queries, API development, data modeling, agile methodology, test-driven development, cloud services, process automation, requirement elicitation, UX, and API integrations.</b>",
+        "As for business skills, I have honed essential skills that contribute to my effectiveness in various roles. These include <b>problem-solving, corporate communication, adaptability, effective communication tailored to different audiences, the ability to work autonomously towards team goals, and self-motivation</b>."
       ],
-      "CardOne": "Main",
-      "CardTwo": "Others"
-
+      "Badges": {
+        "SectionLength": "11",
+        "Icons": [
+          {
+            "name": "React",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=10_WILadyAU8zPqHHFS-TEtZPP36L72Mr",
+            "alt": "react icon"
+          },
+          {
+            "name": "HaloPSA",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1ZjrSI7yyZwlEuEZIpTW0eJDh6ezp2v-l",
+            "alt": "halopsa icon"
+          },
+          {
+            "name": ".NET Core C#",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=11rCfeIa-5raAgelxOul_ZWaUc8XbBr9y",
+            "alt": ".net icon"
+          },
+          {
+            "name": "Power Automate",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1KuNv7X0inxu9Z8iwpxNo5SizBUfRftac",
+            "alt": "power automate icon"
+          },
+          {
+            "name": "AWS",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1utxFf8zzmv1triLORjnNPQODVHJ6JohV",
+            "alt": "amazon web services icon"
+          },
+          {
+            "name": "Node.js",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1uASAJiZqdQ3wtvVsrLIp-AxvPrsH8YQj",
+            "alt": "nodejs icon"
+          },
+          {
+            "name": "Vue.js",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1E5tgPzFcDv2m2hB9rSWS7LVkVqJfz1xC",
+            "alt": "vuejs icon"
+          },
+          {
+            "name": "Firebase",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1LvoJFZ6fGfK2rE_dh4EZYIB_QeziQGzS",
+            "alt": "firebase icon"
+          },
+          {
+            "name": "Typescript",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1Bozj6FOsugCFAY6ySsSw1tLBRb4_IGdE",
+            "alt": "typescript icon"
+          },
+          {
+            "name": "Tailwind",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1j9mPxR3pDOOkykJ65Oi5659zIk4MUJa9",
+            "alt": "tailwind css icon"
+          },
+          {
+            "name": "FlutterFlow",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=14lASGaERcPq3BwBZuF6yzFUcmTvHABTf",
+            "alt": "flutter flow css icon"
+          }
+        ]
+      }
     }
   },
   "Recommendations": {

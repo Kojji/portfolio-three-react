@@ -211,12 +211,71 @@
     "Skills": {
       "PageTitle": "Minhas Habilidades",
       "Paragraphs": [
-        "O cartão ao lado tem o objetivo de gerar uma visão mais resumida e direta de meus conhecimentos principais, a leitura dos trechos abaixo e da aba de <b>\"Experiência\"</b> servem como um complemento, aprofundando um pouco mais sobre o nível de conhecimento e habilidades atuais que tenho.",
-        "Para o desenvolvimento de APIs, tive uma experiência profissional usando PHP com Cake PHP, porém, desde então venho usando <b>Node.js com Express.js ou AdonisJs, além de typescrypt</b>. Infelizmente não tive muito contato profissional com testes automatizados, mas já iniciei meus estudos, tanto sobre testes unitários quanto testes <i>End-to-End</i>. Fora isso, adquiri conhecimentos de <b>integração de sockets; uso de contêineres; uso de serviços cloud como firebase, google Cloud Platform e AWS; e levantamento de servidores web linux</b> em experiências prévias.",
-        "No front end, tenho mais conhecimentos de <b>Vue.js, com diversos frameworks de componentização, como Vuetify, Bootstrap, Quasar e Tailwind</b>. Com as minhas experiências anteriores no desenvolvimento front end também foram adquiridos conhecimentos de <b>HTML, Javascript e CSS</b>.",
-        "No momento, em meu tempo livre, <b>estou visando adquirir mais conhecimento de animações CSS e JS, criação e manipulação de imagens svg, testes automatizados e arquitetura Cloud no AWS</b>."
+        "Como resultado do meu desenvolvimento profissional, adquiri competências técnicas e adquiri conhecimentos em Desenvolvimento de Software e Análise de Negócios. Esta seção complementa os resultados de meus esforços anteriores descritos nas seções <b>\"Experiência\"</b> e <b>\"Formação\"</b>.",
+        "Apesar de eu ter tido contato com diversas tecnologias e ferramentas, abaixo está uma lista daquelas em que sou mais proficiente. Adquiri conhecimento nelas por meio de cursos, experiências de trabalho e auto-estudo.",
+        "Ao longo de minha jornada profissional, além das tecnologias e ferramentas, adquiri uma compreensão abrangente dos conceitos de Análise de Negócios e Desenvolvimento de Software, incluindo consultas SQL, desenvolvimento de APIs, modelagem de dados, metodologias ágeis, desenvolvimento orientado a testes, serviços em nuvem, automação de processos, elicitação de requisitos, UX e integrações de API.</b>",
+        "Em relação a competências profissionais, me aprimorei em habilidades essenciais que contribuem para a minha eficácia em diversas funções. Isso inclui <b>resolução de problemas, comunicação corporativa, adaptabilidade, comunicação eficaz adaptada a diferentes públicos, capacidade de trabalhar de forma autônoma em direção aos objetivos da equipe e automotivação</b>."
       ],
-      "CardOne": "Principal"
+      "Badges": {
+        "SectionLength": "11",
+        "Icons": [
+          {
+            "name": "React",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=10_WILadyAU8zPqHHFS-TEtZPP36L72Mr",
+            "alt": "react icon"
+          },
+          {
+            "name": "HaloPSA",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1ZjrSI7yyZwlEuEZIpTW0eJDh6ezp2v-l",
+            "alt": "halopsa icon"
+          },
+          {
+            "name": ".NET Core C#",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=11rCfeIa-5raAgelxOul_ZWaUc8XbBr9y",
+            "alt": ".net icon"
+          },
+          {
+            "name": "Power Automate",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1KuNv7X0inxu9Z8iwpxNo5SizBUfRftac",
+            "alt": "power automate icon"
+          },
+          {
+            "name": "AWS",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1utxFf8zzmv1triLORjnNPQODVHJ6JohV",
+            "alt": "amazon web services icon"
+          },
+          {
+            "name": "Node.js",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1uASAJiZqdQ3wtvVsrLIp-AxvPrsH8YQj",
+            "alt": "nodejs icon"
+          },
+          {
+            "name": "Vue.js",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1E5tgPzFcDv2m2hB9rSWS7LVkVqJfz1xC",
+            "alt": "vuejs icon"
+          },
+          {
+            "name": "Firebase",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1LvoJFZ6fGfK2rE_dh4EZYIB_QeziQGzS",
+            "alt": "firebase icon"
+          },
+          {
+            "name": "Typescript",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1Bozj6FOsugCFAY6ySsSw1tLBRb4_IGdE",
+            "alt": "typescript icon"
+          },
+          {
+            "name": "Tailwind",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=1j9mPxR3pDOOkykJ65Oi5659zIk4MUJa9",
+            "alt": "tailwind css icon"
+          },
+          {
+            "name": "FlutterFlow",
+            "iconUrl": "https://drive.google.com/uc?export=view&id=14lASGaERcPq3BwBZuF6yzFUcmTvHABTf",
+            "alt": "flutter flow css icon"
+          }
+        ]
+      }
     }
   },
   "Recommendations": {
