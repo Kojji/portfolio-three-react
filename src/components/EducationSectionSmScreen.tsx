@@ -33,12 +33,12 @@ function EducationSectionSmScreen() {
 
   function getEducationSections() {
     let content = [];
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < sectionItemsInArray.length; i++) {
       content.push(
         <div>
-          <p className="flex justify-center text-3xl text-gray-700 font-bold mb-5">
+          <div className="px-3 bg-gray-100 font-semibold text-lg uppercase">
             {t(`InfoCards.Education.Sections.${i}.value`)}
-          </p>
+          </div>
           <div>{getEducationSectionItems(i)}</div>
         </div>
       );
@@ -48,6 +48,9 @@ function EducationSectionSmScreen() {
 
   return (
     <div className="w-full">
+      <h2 className="text-3xl text-center text-gray-700 font-bold mb-5">
+        {t("InfoCards.Education.PageTitle")}
+      </h2>
       <div className="mb-10">
         <div>{getEducationSections()}</div>
       </div>

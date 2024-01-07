@@ -74,7 +74,7 @@ function ExperienceSectionMdScreen() {
   return (
     <div>
       <div className="px-2 flex flex-col">
-        <h2 className="py-4 mx-auto font-bold lg:text-3xl text-2xl">
+        <h2 className="text-3xl text-center text-gray-700 font-bold mb-5">
           {t("InfoCards.Experience.PageTitle")}
         </h2>
         <div className="inline-flex">
