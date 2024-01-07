@@ -281,12 +281,30 @@
     }
   },
   "Recommendations": {
-    "SectionLength": "1",
+    "SectionLength": "2",
+    "Title": "Recommendations",
     "Items": [
       {
-        "author": "Name",
-        "link": "URL",
-        "content": "Content"
+        "author": "Melody Tam",
+        "relationship": "Melody was Fernando Koji's client",
+        "link": "https://www.linkedin.com/in/melody-tam-77b873232?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BUzdOYqL1SPGgzBEx6KseHg%3D%3D",
+        "length": "3",
+        "content": [
+          "Working with Fernando was such a pleasure, he provided invaluable advice and insights for the development of our MVP, and I wholeheartedly recommend him for his exceptional expertise and dedication. Fernando is a true professional who brings a wealth of knowledge and experience to the table.",
+          "With remarkable ability to understand, enhance, and map out processes and functionalities crucial to the success of our project, his strategic thinking and attention to detail were evident in the planning phase of the project. Ensuring that our MVP was not only well-executed but also aligned with our long-term goals, he committed to himself to refining the initial documentation to precisely match our vision for the end product. His keen understanding of the industry, coupled with his effective communication skills, made the collaboration seamless and highly productive.",
+          "If you're looking for a professional who can elevate your project with strategic insights, meticulous planning, and a genuine commitment to success, Fernando is the ideal choice."
+        ]
+      },
+      {
+        "author": "Ben Seah Ph.D.",
+        "relationship": "Ben was Fernando Koji's teacher",
+        "link": "https://www.linkedin.com/in/ben-seah?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BUzdOYqL1SPGgzBEx6KseHg%3D%3D",
+        "length": "3",
+        "content": [
+          "I had the pleasure of working closely with Fernando during our IT subjects, specifically in Model Data Objects and Build Advanced User Interfaces. From the very beginning, it was evident that Fernando was a highly motivated individual with a genuine passion for his work.",
+          "One of the standout qualities I noticed about Fernando was his ability to consistently deliver outstanding results. His completed projects were of the highest quality, showcasing his attention to detail and relentless effort. It was truly impressive to witness his commitment to excellence and his willingness to go the extra mile to ensure successful outcomes.",
+          "What impressed me even more was Fernando's decision to pursue a project management route as an extension of his education and work experience in IT. Together, we tackled various aspects of project management, including managing project risk, project procurement, personal and professional development, as well as project information and communication. Throughout these endeavours, Fernando proved himself to be consistent, dedicated, and highly capable."
+        ]
       }
     ]
   }

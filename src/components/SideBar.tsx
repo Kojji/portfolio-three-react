@@ -43,7 +43,7 @@ function SideBar() {
         <a key={i}>
           <button
             id={t(`HorizontalMenu.${i}.id`)}
-            className="text-gray-700 dark:text-pink-200 font-bold text-lg"
+            className="text-gray-100 font-bold text-lg"
             onClick={() => redirectToId(i)}
           >
             <a>{t(`HorizontalMenu.${i}.value`)}</a>
@@ -56,9 +56,9 @@ function SideBar() {
 
   return (
     <div className="w-full bg-gray-700 px-4 py-2 flex flex-col z-40 side-bar">
-      <div className="flex items-center w-full border-b-2 border-emerald-700 p-4">
+      <div className="flex items-center w-full border-b-2 border-amber-600 p-4">
         <button
-          className="text-emerald-700 hover:text-emerald-900 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 mr-2 block"
+          className="text-amber-600 hover:text-amber-700 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 mr-2 block"
           type="button"
           onClick={closeSideBar}
         >
@@ -70,7 +70,7 @@ function SideBar() {
           src={logo}
         />
         <button
-          className="text-emerald-700 hover:text-emerald-900 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 mr-2 block"
+          className="text-amber-600 hover:text-amber-700 font-normal h-8 w-8 items-center justify-center align-center outline-none focus:outline-emerald-500 mr-2 block"
           type="button"
           onClick={closeSideBar}
         >

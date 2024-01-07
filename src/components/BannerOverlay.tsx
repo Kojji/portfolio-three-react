@@ -40,7 +40,7 @@ function BannerOverlay() {
         {/* <div className="mx-auto p-10 container bg-gradient-to-r from-cyan-500 to-blue-500 opacity-75 h-full flex flex-col"> */}
         {windowWidthState > 768 && (
           <div id="MDTopBar" className="flex justify-between">
-            <div className="justify-self-start self-center md:w-24 md:h-24 w-16 h-16">
+            <div className="justify-self-start self-center md:w-32 md:h-32 w-24 h-24">
               <img src={logo} />
             </div>
             <div className="justify-self-end self-center gap-2 flex">
