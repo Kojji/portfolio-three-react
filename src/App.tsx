@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import SideBar from "./components/SideBar";
 import FullScreenBanner from "./components/FullScreenBanner";
 import MenuMdScreen from "./components/MenuMdComponent";
-import CallToActionsSmScreen from "./components/CallToActionsSmComponent";
+// import CallToActionsSmScreen from "./components/CallToActionsSmComponent";
 import ReturnToTopButton from "./components/FixedSmScreenButtons";
 
 import { useAppSelector, useAppDispatch } from "./store/hooks";
@@ -39,7 +39,7 @@ function App() {
       {windowWidthState <= 768 && <ReturnToTopButton />}
       <div>
         <div>
-          {windowWidthState <= 768 && <CallToActionsSmScreen />}
+          {/* {windowWidthState <= 768 && <CallToActionsSmScreen />} */}
           <MenuMdScreen />
         </div>
         <div id="route-section">

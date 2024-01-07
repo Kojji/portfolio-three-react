@@ -7,49 +7,6 @@ function Skills() {
     t(`InfoCards.Skills.Badges.SectionLength`)
   );
 
-  const skillIcons = [
-    {
-      name: "Node.js",
-      iconUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      alt: "nodejs icon",
-    },
-    {
-      name: "Vue.js",
-      iconUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-      alt: "vuejs icon",
-    },
-    {
-      name: "Firebase",
-      iconUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      alt: "firebase icon",
-    },
-    {
-      name: "AWS",
-      iconUrl: "",
-      alt: "amazon web services icon",
-    },
-    {
-      name: "Typescript",
-      iconUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      alt: "typescript icon",
-    },
-    {
-      name: "Tailwind",
-      iconUrl:
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg",
-      alt: "tailwind css icon",
-    },
-    {
-      name: "React",
-      iconUrl: "",
-      alt: "react icon",
-    },
-  ];
-
   function getSkillBadges() {
     let content = [];
     for (let i = 0; i < sectionBadgeItemsInArray; i++) {

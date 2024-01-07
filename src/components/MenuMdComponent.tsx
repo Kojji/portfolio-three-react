@@ -30,7 +30,7 @@ function MenuMdComponent() {
   return (
     <div
       id="horizontal-menu"
-      className="w-full inline-flex justify-center items-center md:my-5 my-3"
+      className="w-full inline-flex justify-center items-center md:mt-5 mt-3"
     >
       {getMenuItems()}
     </div>
