@@ -6,8 +6,6 @@ function ExperienceSectionSmScreen() {
 
   const sectionItemsInArray: number[] = [
     Number(t(`InfoCards.Experience.Sections.${0}.length`)),
-    Number(t(`InfoCards.Experience.Sections.${1}.length`)),
-    Number(t(`InfoCards.Experience.Sections.${2}.length`)),
   ];
 
   function getExperienceSectionItems(sectionIndex: number) {

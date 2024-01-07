@@ -208,98 +208,54 @@
       ]
     },
     "Experience": {
-      "PageTitle": "Experiência Profissional",
+      "PageTitle": "Experiência",
       "Sections": [
         {
           "title": "paid",
-          "value": "Serviços de Programação",
-          "length" : "5",
+          "value": "Experiências Profissionais",
+          "length" : "7",
           "items": [
+            {
+              "title": "switch-connect",
+              "valueMenu": "2023 - Analista de Negócios | Switch Connect",
+              "valueLabel": "Set ~ Dez 2023 | Estagiário de Analise de Negócios | Switch Connect",
+              "valueDescription": "Neste cargo, tive contato com processos de CRM e entrega de serviços na industria de MSP em TIC. Além de ter sido introduzido à conceitos de automação de processos, minhas tarefas diárias consistiam principalmente em atividades relacionadas à análise de processos internos, desenvolvimento de automações (principalmente em HaloPSA e Power Automate), integração de diferentes serviços através de APIs, criação de guias de usuário final e documentação de funcionalidades."
+            },
+            {
+              "title": "the-minded",
+              "valueMenu": "2023 - Consultor de Desenvolvimento de Aplicativos | The Minded",
+              "valueLabel": "Set ~ Out 2023 | Consultor de Desenvolvimento de Aplicativos | The Minded",
+              "valueDescription": "Como um consultor de desenvolvimento de aplicativos, eu aconselhei o cliente em relação à análise de requerimentos para o desenvolvimento do MVP da empresa. Este serviço também incluiu a análise, mapeamento e diagramação de funcionalidades e processos do MVP, além de sugerir melhorias para aumentar as chances de sucesso, reduzir riscos e alinhar documentações com os objetivos desejados para produto final."
+            },
             {
               "title": "mutant",
               "valueMenu": "2022 - Mutant & Vivo",
-              "valueLabel": "Mai. 2022 ~ Set. 2022 - [Analista de Desenvolvimento Jr.] Mutant - Vivo",
-              "valueDescription": "Empregado pela Mutant, fui alocado para trabalhar na Vivo. O serviço prestado, consistiu principalmente do <b>desenvolvimento e manutenção de diálogos de casos de uso</b> para a Inteligência Artificial Aura, da Vivo, para atendimento via WhatsApp. <b>Foram aprofundados conhecimentos de uso de classes no javascript, metodologias ágeis, typescript e criação de pacotes npm</b>."
+              "valueLabel": "Mai ~ Set 2022 | Analista de Desenvolvimento Jr. | Mutant & Vivo",
+              "valueDescription": "Empregado pela Mutant, fui alocado para trabalhar na Vivo. O serviço prestado, consistiu principalmente do desenvolvimento e manutenção de diálogos de casos de uso para a Inteligência Artificial Aura, da Vivo, para atendimento via WhatsApp. Foram aprofundados conhecimentos de uso de classes no JavaScript, metodologias ágeis, typescript e criação de pacotes NPM."
             },
             {
               "title": "rifaisso",
-              "valueMenu": "2022 - Rifaisso",
-              "valueLabel": "Mar. 2022 ~ Mai. 2022 - [Freelance] Rifaisso",
-              "valueDescription": "Fui responsável pelo <b>desenvolvimento da API</b> do sistema Rifaisso, que foi desenvolvido do zero até sua primeira versão comercial, feito <b>em Typescript com AdonisJs e docker</b>. Durante o processo, foi necessário realizar <b>integração com a API do Mercado Pago, criação de rotinas CRON, além do aprendizado do AdonisJs e docker</b>, que não eu tinha tido contato antes deste trabalho."
+              "valueMenu": "2022 - Desenvolvedor Web | Rifaisso",
+              "valueLabel": "Mar ~ Mai 2022 - Desenvolvedor Web | Rifaisso",
+              "valueDescription": "Fui responsável pelo desenvolvimento da API do sistema Rifaisso, feito em Typescript com AdonisJS e Docker. Durante o processo, foi necessário realizar integração com a API do Mercado Pago, criação de rotinas CRON, além do aprendizado do AdonisJS e Docker, que não eu tinha tido contato antes deste trabalho."
             },
             {
               "title": "teachlearn",
-              "valueMenu": "2021 - TeachLearn",
-              "valueLabel": "Jan. 2021 ~ Jul. 2021 - [Freelance] TeachLearn",
-              "valueDescription": "Participei no desenvolvimento das primeiras versões do sistema TeachLearn, desenvolvido em <b>Vue.js com Quasar e Node.js com Express.js</b>. Realizei atividades tanto no front end quanto no back end, porém a maioria delas foram focadas no <b>desenvolvimento de endpoints da API</b> do sistema. Uma atividade notória em minha atuação foi o <b>desenvolvimento do chat do sistema, utilizando socket.io</b>."
+              "valueMenu": "2021 - Desenvolvedor Web | TeachLearn",
+              "valueLabel": "Jan ~ Jul 2021 - Desenvolvedor Web | TeachLearn",
+              "valueDescription": "Participei no desenvolvimento das primeiras versões do sistema TeachLearn, desenvolvido em Vue.js com Quasar e Node.js com Express.js. Realizei atividades tanto no front end quanto no back end, porém a maioria delas foram focadas no desenvolvimento de endpoints da API do sistema. Uma atividade notória em minha atuação foi o desenvolvimento do chat do sistema, utilizando socket.io."
             },
             {
-              "title": "dourasoftFree",
-              "valueMenu": "2020 - DouraSoft",
-              "valueLabel": "Nov. 2019 ~ Abr. 2020 - [Freelance] DouraSoft",
-              "valueDescription": "Após a finalização do estágio obrigatório, realizei uns serviços como Freelancer para a Dourasoft, onde <b>desenvolvi e integrei um bot de Whatsapp em Java usando Selenium</b> no sistema comercializado pela empresa. Um outro serviço realizado também foi a <b>criação do script de migração do banco de dados</b> do sistema legado de desktop da empresa, para o novo esquema de banco de dados do sistema web atual."
+              "title": "dourasoft-free",
+              "valueMenu": "2020 - Desenvolvedor Web | DouraSoft",
+              "valueLabel": "Nov 2019 ~ Abr 2020 - Desenvolvedor Web | DouraSoft",
+              "valueDescription": "Após a finalização do estágio obrigatório, realizei uns serviços como Freelancer para a Dourasoft, onde desenvolvi e integrei um bot de Whatsapp em Java usando Selenium no sistema comercializado pela empresa. Um outro serviço realizado também foi a criação do script de migração do banco de dados do sistema legado de desktop da empresa, para o novo esquema de banco de dados do sistema web atual."
             },
             {
-              "title": "dourasoftIntern",
-              "valueMenu": "2019 - DouraSoft",
-              "valueLabel": "Fev. 2019 ~ Jun. 2019 - [Estágio] DouraSoft",
-              "valueDescription": "Como critério de conclusão do curso de Engenharia de Computação, realizei o estágio na DouraSoft, desenvolvendo uma funcionalidade de OCR para ser integrado ao sistema web desenvolvido e comercializado pela empresa. O desenvolvimento da nova funcionalidade foi bem sucedida, e realizada com <b>Amazon Textract (OCR)</b>. Durante o estágio, também houve o <b>aprendizado de Vue.js com Quasar, PHP com CakePHP, PostgreQL, Google Cloud Services e Firebase</b>."
-            }
-          ]
-        },
-        {
-          "title": "other",
-          "value": "Outros Projetos",
-          "length" : "5",
-          "items": [
-            {
-              "title": "protfolio-two",
-              "valueMenu": "2022 - portfolio-two",
-              "valueLabel": "2022 - portfolio-two (esta página)",
-              "valueDescription": "<a href=\"https://github.com/Kojji/portfolio-two\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Projeto presente no GitHub]</span></a> Este projeto é referente ao desenvolvimento desta última versão deste meu portfolio profissional, feito com <b>Vue.js e tailwind, hospedado no AWS e com animações feitas em Green Sock (GSAP)</b>."
-            },
-            {
-              "title": "myCrurriculum",
-              "valueMenu": "2022 - MyCurriculum",
-              "valueLabel": "2022 - MyCurriculum",
-              "valueDescription": "<a href=\"https://github.com/Kojji/my-curriculum\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Projeto presente no GitHub]</span></a> Visão disponível em <a href=\"https://portfolio-232.web.app\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">portfolio-232.web.app</span></a>, este projeto é referente à primeira versão deste portfolio. Na época, eu propus alguns desafios extras para mim mesmo, ao usar pela primeira vez o <b>Vue.js com Bootstrap</b> para o desenvolvimento da página, além do <b>desenvolvimento de uma animação CSS</b> exclusivamente para esta página."
-            },
-            {
-              "title": "cadastrare",
-              "valueMenu": "2021 - Cadastrare",
-              "valueLabel": "2021 - Cadastrare",
-              "valueDescription": "<a href=\"https://github.com/Kojji/sistema-cadastro-consultorio\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Projeto presente no GitHub]</span></a> Este projeto envolveu o desenvolvimento de um sistema de gerenciamento de fichas de pacientes e agenda de um consultório de dentista, desenvolvido com <b>Vue.js com Quasar e Express.js</b>. A maior contribuição deste projeto para minha experiência, foi o levantamento do <b>servidor web em ubuntu por linha de comando e compra de domínios</b>."
-            },
-            {
-              "title": "agriv",
-              "valueMenu": "2021 - Agriv",
-              "valueLabel": "2020 ~ 2021 - Agriv",
-              "valueDescription": "O Agriv é um sistema de coleta de dados do solo através de uma Rede de Sensores sem Fio, desenvolvido como o trabalho de conclusão de curso para o curso de Engenharia de Computação. Este projeto foi feito com mais um acadêmico, eu fiquei responsável principalmente pela <b>criação da rede e seu hardware</b>, onde utilizamos de <b>ESPs 32</b> como nodos para a coleta de dados através de sensores, e como <i>gateways</i> para intermediar a comunicação com o servidor. O sistema é composto da rede de sensores e de um web app para a leitura de dados e interação com a rede."
-            },
-            {
-              "title": "passremind",
-              "valueMenu": "2020 - PassRemind",
-              "valueLabel": "2020 - PassRemind",
-              "valueDescription": "<a href=\"https://github.com/Kojji/pass-remind-web-app\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Projeto presente no GitHub]</span></a> O PassRemind é um aplicativo de gerenciamento de senhas para uso pessoal, desenvolvido em <b>Vue.js com Vuetify e firebase</b>, além de um <b>plugin de navegador</b>. Apesar de não ser tão complexo, esse projeto foi importante por me introduzir à desenvolvimento de plugins e a utilização de serviços cloud do firebase, no caso, <b>Firestore, Firebase Functions e Firebase Hosting</b>."
-            }
-          ]
-        },
-        {
-          "title": "misc",
-          "value": "Geral",
-          "length" : "2",
-          "items": [
-            {
-              "title": "coin",
-              "valueMenu": "2016 - UFGD-COIN",
-              "valueLabel": "Mar. 2016 ~ Jul. 2016 - [Estágio] UFGD-COIN",
-              "valueDescription": "Durante a faculdade, realizei um estágio extracurricular na COIN - Coordenadoria de Informática da UFGD - Universidade Federal da Grande Dourados, no suporte ao usuário, que envolviam <b>trabalhos de suporte aos usuários</b> (discentes e técnicos da instituição), referentes à <b>computadores e conexão de rede e internet</b>."
-            },
-            {
-              "title": "aureon",
-              "valueMenu": "2013 - Aureon",
-              "valueLabel": "Abr. 2013 ~ Ago. 2013 - [Estágio] Aureon",
-              "valueDescription": "Como critério de conclusão do meu curso Técnico em Eletronica, realizei um estágio na Aureon, empresa de comércio e fabricação de equipamentos de iluminação de emergência. O trabalho consistia em realizar a calibragem e manutenção dos equipamentos na linha de produção, exclusivamente produtos eletrônicos analógicos."
+              "title": "dourasoft-intern",
+              "valueMenu": "2019 - Desenvolvedor Web | DouraSoft",
+              "valueLabel": "Fev ~ Jun 2019 - Estágio de Desenvolvimento Web | DouraSoft",
+              "valueDescription": "Como critério de conclusão do curso de Engenharia de Computação, realizei o estágio na DouraSoft, desenvolvendo uma funcionalidade de OCR para ser integrado ao sistema web desenvolvido e comercializado pela empresa. O desenvolvimento da nova funcionalidade foi bem sucedida, e realizada com Amazon Textract (OCR). Durante o estágio, também houve o aprendizado de Vue.js com Quasar, PHP com CakePHP, PostgreQL, Google Cloud Services e Firebase."
             }
           ]
         }

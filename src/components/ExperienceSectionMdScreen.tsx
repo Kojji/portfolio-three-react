@@ -5,8 +5,6 @@ function ExperienceSectionMdScreen() {
 
   const sectionItemsInArray: number[] = [
     Number(t(`InfoCards.Experience.Sections.${0}.length`)),
-    Number(t(`InfoCards.Experience.Sections.${1}.length`)),
-    Number(t(`InfoCards.Experience.Sections.${2}.length`)),
   ];
 
   function getTableItems(index: number) {
@@ -17,7 +15,7 @@ function ExperienceSectionMdScreen() {
       );
       content.push(
         <a href={`#${itemTitle}`}>
-          <button className="hover:bg-purple-400 hover:text-zinc-100 w-full flex items-center p-1 rounded-md font-semibold text-lg">
+          <button className="hover:bg-purple-400 hover:text-zinc-100 w-full flex text-start p-1 rounded-md font-semibold 2xl:text-lg text-md">
             {t(`InfoCards.Experience.Sections.${index}.items.${i}.valueMenu`)}
           </button>
         </a>
@@ -75,17 +73,17 @@ function ExperienceSectionMdScreen() {
 
   return (
     <div>
-      <div className="px-10 flex flex-col">
+      <div className="px-2 flex flex-col">
         <h2 className="py-4 mx-auto font-bold lg:text-3xl text-2xl">
           {t("InfoCards.Experience.PageTitle")}
         </h2>
         <div className="inline-flex">
-          <div className="px-3 py-4 lg:w-96 w-72 h-min bg-purple-100 rounded-md drop-shadow-lg">
+          <div className="px-3 py-4 xl:w-1/2 w-3/5 h-min bg-purple-100 rounded-md drop-shadow-lg">
             {sectionItemsInArray.map((_, index) => {
               return getContentTable(index);
             })}
           </div>
-          <div className="w-full lg:px-10 px-5">
+          <div className="w-full px-5">
             {sectionItemsInArray.map((_, index) => {
               return getContentTexts(index);
             })}

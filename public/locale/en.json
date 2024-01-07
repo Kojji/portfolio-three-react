@@ -208,98 +208,54 @@
       ]
     },
     "Experience": {
-      "PageTitle": "Professional Experience",
+      "PageTitle": "Experience",
       "Sections": [
         {
           "title": "paid",
-          "value": "Programming Services",
-          "length" : "5",
+          "value": "Work Experiences",
+          "length" : "7",
           "items": [
             {
+              "title": "switch-connect",
+              "valueMenu": "2023 - Business Analyst | Switch Connect",
+              "valueLabel": "Sep ~ Dec 2023 | Business Analysis Intern | Switch Connect",
+              "valueDescription": "On this role, I had exposure to CRM and Service delivery processes and the ICT MSP industry. I was introduced to concepts of process automation, my daily tasks consisted mainly of activities related to understanding internal processes, developing automations (mainly in HaloPSA and Power Automate), integrating different services through APIs, creating of end user guides and documentation of functionalities."
+            },
+            {
+              "title": "the-minded",
+              "valueMenu": "2023 - App Development Consultant | The Minded",
+              "valueLabel": "Sep ~ Oct 2023 | App Development Consultant | The Minded",
+              "valueDescription": "As an App Development Consultant, I advised the client in regards to requirement analysis for the development of the company's MVP. Also, it involved the understanding, mapping and diagramming of the proposed MVP's functionalities and processes, while suggesting improvements to increase chances of success, reduce risks and align the documentation provided to the desired end product."
+            },
+            {
               "title": "mutant",
-              "valueMenu": "2022 - Mutant & Vivo",
-              "valueLabel": "May. 2022 ~ Sep. 2022 - [Junior Development Analyst] Mutant - Vivo",
-              "valueDescription": "Employed by Mutant, I was allocated to work for Vivo. The job consisted of the <b>development and maintenance of use case dialogs</b> for Aura, the company's AI, in the context of customer service via WhatsApp. I deepened my <b>knowledge of Agile Methodologies, typescript, use of javascript classes and npm packages development</b>."
+              "valueMenu": "2022 - Programming Analyst | Mutant & Vivo",
+              "valueLabel": "May ~ Sep 2022 | Junior Programming Analyst | Mutant & Vivo",
+              "valueDescription": "Employed by Mutant, I was allocated to work for Vivo. The job consisted of the development and maintenance of WhatsApp dialogs. Using Typescript and NodeJS, I performed tasks on the company developed wrapper that integrates the WhatsApp API and the company's AI, Aura.  Working in a multidisciplinary team with tasks managed using Agile Methodologies, I deepened my knowledge of Agile Methodologies, Typescript, use of JavaScript classes, NPM package development and creation of documentation."
             },
             {
               "title": "rifaisso",
-              "valueMenu": "2022 - Rifaisso",
-              "valueLabel": "Mar. 2022 ~ May. 2022 - [Freelance] Rifaisso",
-              "valueDescription": "I fully <b>developed an API</b> for Rifaisso, from its beginning to the first commercial version. It was <b>developed using Typescript with AdonisJs and docker</b>. During the development, I <b>integrated the <i>Mercado Pago</i> API, made CRON routines, and learned AdonisJs and Docker implementation</b>, which I was not familiar with."
+              "valueMenu": "2022 - Web Developer | Rifaisso",
+              "valueLabel": "Mar ~ May 2022 - Web Developer | Rifaisso",
+              "valueDescription": "I fully developed a REST API for RifaIsso. It was developed using Typescript with AdonisJS and Docker. During the development, I integrated the Mercado Pago API, made CRON routines, and learned AdonisJS and Docker implementation, which I was not familiar with."
             },
             {
               "title": "teachlearn",
-              "valueMenu": "2021 - TeachLearn",
-              "valueLabel": "Jan. 2021 ~ Jul. 2021 - [Freelance] TeachLearn",
-              "valueDescription": "I took part into the development of TeachLearn's first versions, made in <b>Vue.js with Quasar and Node.js with Express.js</b>. My tasks involved both, front end and back end development, but most of them were on the <b>development of endpoints</b>. One of my most notorious activities at this service, was the <b>development and implementation of a chat system with socket.io</b>."
+              "valueMenu": "2021 - Web Developer | TeachLearn",
+              "valueLabel": "Jan ~ Jul 2021 - Web Developer | TeachLearn",
+              "valueDescription": "I took part into the development of TeachLearn's first versions, made in Vue.js with Quasar and Node.js with Express.js. My tasks involved both, front end and back end development, but most of them were on the development of endpoints. One of my most notorious activities at this service, was the development and implementation of a chat system with socket.io."
             },
             {
-              "title": "dourasoftFree",
-              "valueMenu": "2020 - DouraSoft",
-              "valueLabel": "Nov. 2019 ~ Apr. 2020 - [Freelance] DouraSoft",
-              "valueDescription": "After my Computer Engineering mandatory internship, I did some services as a Freelancer at Dourasoft. I <b>developed and integrated a Whatsapp bot made with Java and selenium</b> into the company's commercialised system. I also created a <b>SQL script for the database migration</b> from their desktop legacy system to their current web app system."
+              "title": "dourasoft-free",
+              "valueMenu": "2020 - Web Developer | DouraSoft",
+              "valueLabel": "Nov 2019 ~ Apr 2020 - Web Developer | DouraSoft",
+              "valueDescription": "After my Computer Engineering internship, I did some services as a Freelancer at DouraSoft. I developed and integrated a WhatsApp bot made with Java and selenium into the company's commercialised system. I also created a SQL script for the database migration from their desktop legacy system to their newer web app system."
             },
             {
-              "title": "dourasoftIntern",
-              "valueMenu": "2019 - DouraSoft",
-              "valueLabel": "Feb. 2019 ~ Jun. 2019 - [Internship] DouraSoft",
-              "valueDescription": "To conclude my Computer Engineering course, I did my mandatory internship at Dourasoft, where I developed an OCR functionality to be integrated into company's developed and commercialised system. It was done with <b>Amazon Textract (OCR)</b>. During the internship, <b>Vue.js with Quasar, PHP with CakePHP, PostgreSQL, Google Cloud Services and Firebase skills</b> were also learned."
-            }
-          ]
-        },
-        {
-          "title": "other",
-          "value": "Other Projects",
-          "length" : "5",
-          "items": [
-            {
-              "title": "protfolio-two",
-              "valueMenu": "2022 - portfolio-two",
-              "valueLabel": "2022 - portfolio-two (this page)",
-              "valueDescription": "<a href=\"https://github.com/Kojji/portfolio-two\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Project available on GitHub]</span></a> This project regards the development of this version of my professional portfolio, made in <b>Vue.js with tailwind, hosted on AWS, and animations made with Green Sock (GSAP)</b>."
-            },
-            {
-              "title": "myCrurriculum",
-              "valueMenu": "2022 - MyCurriculum",
-              "valueLabel": "2022 - MyCurriculum",
-              "valueDescription": "<a href=\"https://github.com/Kojji/my-curriculum\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Project available on GitHub]</span></a> Preview available at <a href=\"https://portfolio-232.web.app\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">portfolio-232.web.app</span></a>, this project was the first version of this portfolio. At that time, I had set some extras challenges for me, like using <b>Vue.js with bootstrap</b>, which I haven't used previously, and the <b>development of a CSS animation</b> exclusively for the page."
-            },
-            {
-              "title": "cadastrare",
-              "valueMenu": "2021 - Cadastrare",
-              "valueLabel": "2021 - Cadastrare",
-              "valueDescription": "<a href=\"https://github.com/Kojji/sistema-cadastro-consultorio\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Project available on GitHub]</span></a> In this project I developed a web app to manage the agenda and pacient's files of a dental clinic. Developed with <b>Vue.js with Quasar and Express.js</b>. In terms of experience, this project was important for introducing me to the procedures on how to <b>acquire domains and hosting servers on Ubuntu command line</b>."
-            },
-            {
-              "title": "agriv",
-              "valueMenu": "2021 - Agriv",
-              "valueLabel": "2020 ~ 2021 - Agriv",
-              "valueDescription": "Agriv is a system to collect soil data through a Wireless Sensor Network, developed for the final paper of my Computer Engineering course. Made with another student, my role was to <b>develop the network and put together all the hardware</b>. <b>ESPs 32</b> were used as gateways and nodes connected to soil sensors to send data to the system's server. This system is composed of the sensor network and a web app to manage it and view the collected data."
-            },
-            {
-              "title": "passremind",
-              "valueMenu": "2020 - PassRemind",
-              "valueLabel": "2020 - PassRemind",
-              "valueDescription": "<a href=\"https://github.com/Kojji/pass-remind-web-app\" target=\"_blank\"><span style=\"color:blue;font-weight:bold\">[Project available on GitHub]</span></a> PassRemind is a password manager web app for personal use, it was developed using <b>Vue.js with Vuetify and firebase</b>, plus, a <b>browser plugin was developed</b> as well. Although, it is not a complex system, this project had its importance for introducing me to the development of browser plugins and the use of <b>Firebase Functions and Firebase Hosting</b>."
-            }
-          ]
-        },
-        {
-          "title": "misc",
-          "value": "Miscellanious",
-          "length" : "2",
-          "items": [
-            {
-              "title": "coin",
-              "valueMenu": "2016 - UFGD-COIN",
-              "valueLabel": "Mar. 2016 ~ Jul. 2016 - [Internship] UFGD-COIN",
-              "valueDescription": "During college, I've done an extracurricular internship at COIN - <i>Coordenadoria de Informática da UFGD</i> (UFGD's IT department), in <b>helpdesk</b>, where most activities envolved assisting faculty and staff with internet and intranet connection problems and computer problems."
-            },
-            {
-              "title": "aureon",
-              "valueMenu": "2013 - Aureon",
-              "valueLabel": "Apr. 2013 ~ Aug. 2013 - [Internship] Aureon",
-              "valueDescription": "To conclude my Electronics Technician course, I did an internship at Aureon, a company that, at the time, commercialized and manufactured analog emergency lightning systems. There, I've calibrated and fixed products on the production line."
+              "title": "dourasoft-intern",
+              "valueMenu": "2019 - Web Developer | DouraSoft",
+              "valueLabel": "Feb ~ Jun 2019 - Web Development Intern | DouraSoft",
+              "valueDescription": "To conclude my Computer Engineering course, I did my mandatory internship at DouraSoft, where I developed an OCR functionality to be integrated into company's developed and commercialised system. It was done with Amazon Textract (OCR). During the internship, Vue.js with Quasar, PHP with CakePHP, PostgreSQL, Google Cloud Services and Firebase skills were also learned."
             }
           ]
         }
