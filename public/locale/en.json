@@ -223,57 +223,57 @@
         "Icons": [
           {
             "name": "React",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=10_WILadyAU8zPqHHFS-TEtZPP36L72Mr",
+            "iconUrl": "/icons/react_logo_300.png",
             "alt": "react icon"
           },
           {
             "name": "HaloPSA",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=1ZjrSI7yyZwlEuEZIpTW0eJDh6ezp2v-l",
+            "iconUrl": "/icons/HaloPSA_logo_300.webp",
             "alt": "halopsa icon"
           },
           {
             "name": ".NET Core C#",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=11rCfeIa-5raAgelxOul_ZWaUc8XbBr9y",
+            "iconUrl": "/icons/net_logo_300.png",
             "alt": ".net icon"
           },
           {
             "name": "Power Automate",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=1KuNv7X0inxu9Z8iwpxNo5SizBUfRftac",
+            "iconUrl": "/icons/powerautomate_logo_300.png",
             "alt": "power automate icon"
           },
           {
             "name": "AWS",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=1utxFf8zzmv1triLORjnNPQODVHJ6JohV",
+            "iconUrl": "/icons/aws_logo_300.png",
             "alt": "amazon web services icon"
           },
           {
             "name": "Node.js",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=1uASAJiZqdQ3wtvVsrLIp-AxvPrsH8YQj",
+            "iconUrl": "/icons/nodejs_logo_300.png",
             "alt": "nodejs icon"
           },
           {
             "name": "Vue.js",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=1E5tgPzFcDv2m2hB9rSWS7LVkVqJfz1xC",
+            "iconUrl": "/icons/vue_logo_300.png",
             "alt": "vuejs icon"
           },
           {
             "name": "Firebase",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=1LvoJFZ6fGfK2rE_dh4EZYIB_QeziQGzS",
+            "iconUrl": "/icons/firebase_logo_300.png",
             "alt": "firebase icon"
           },
           {
             "name": "Typescript",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=1Bozj6FOsugCFAY6ySsSw1tLBRb4_IGdE",
+            "iconUrl": "/icons/typescript_logo_300.png",
             "alt": "typescript icon"
           },
           {
             "name": "Tailwind",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=1j9mPxR3pDOOkykJ65Oi5659zIk4MUJa9",
+            "iconUrl": "/icons/tailwind_logo_300.png",
             "alt": "tailwind css icon"
           },
           {
             "name": "FlutterFlow",
-            "iconUrl": "https://drive.google.com/uc?export=view&id=14lASGaERcPq3BwBZuF6yzFUcmTvHABTf",
+            "iconUrl": "/icons/flutterflow_logo_300.png",
             "alt": "flutter flow css icon"
           }
         ]
